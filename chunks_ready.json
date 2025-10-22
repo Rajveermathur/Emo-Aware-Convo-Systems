@@ -6,8 +6,8 @@
       "speaker": "human",
       "ai_reply": "That sounds really hard. When life starts feeling repetitive or dull, it\u2019s often a sign your mind needs a break or some new stimulus. Can you tell me what\u2019s been draining you lately?",
       "turn_number": 0,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -17,8 +17,8 @@
       "speaker": "human",
       "ai_reply": "That lack of fulfillment might be emotional fatigue. Have you tried reflecting on what parts of work energize you versus what feels meaningless?",
       "turn_number": 2,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -28,8 +28,8 @@
       "speaker": "human",
       "ai_reply": "That could point to social burnout \u2014 when connection feels exhausting instead of refreshing. Maybe starting with small, one-on-one chats could ease you back in.",
       "turn_number": 4,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -39,8 +39,8 @@
       "speaker": "human",
       "ai_reply": "Wanting solitude isn\u2019t always bad, but total isolation can deepen sadness. Would it feel manageable to text one friend, just to check in?",
       "turn_number": 6,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -50,8 +50,8 @@
       "speaker": "human",
       "ai_reply": "You don\u2019t have to fake it. Authentic messages like 'I\u2019ve been low lately but thinking of you' can maintain closeness without pressure.",
       "turn_number": 8,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -61,8 +61,8 @@
       "speaker": "human",
       "ai_reply": "Oversleeping can be your body\u2019s way of coping with stress or sadness. Would you say your sleep feels restful or more like escape?",
       "turn_number": 10,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -72,8 +72,8 @@
       "speaker": "human",
       "ai_reply": "That emotional exhaustion might mean you\u2019re mentally overloaded. Gentle routines \u2014 like morning sunlight or short walks \u2014 can start resetting your mood.",
       "turn_number": 12,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -83,8 +83,8 @@
       "speaker": "human",
       "ai_reply": "That\u2019s normal when you\u2019re overwhelmed. Try grounding instead \u2014 focus on what you can see, hear, and touch. It\u2019s mindfulness without the pressure to clear your mind.",
       "turn_number": 14,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -94,8 +94,8 @@
       "speaker": "human",
       "ai_reply": "Self-care isn\u2019t a test you pass or fail. It\u2019s a process of noticing what you need \u2014 sometimes that\u2019s rest, sometimes it\u2019s asking for help.",
       "turn_number": 16,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -105,8 +105,8 @@
       "speaker": "human",
       "ai_reply": "That\u2019s totally understandable. Starting therapy can feel intimidating, but remember: therapists aren\u2019t judging; they\u2019re trained to listen and guide safely.",
       "turn_number": 18,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -116,8 +116,8 @@
       "speaker": "human",
       "ai_reply": "Every feeling that weighs on you is valid. Therapy isn\u2019t only for crises \u2014 it\u2019s for building understanding and tools before things worsen.",
       "turn_number": 20,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -127,8 +127,8 @@
       "speaker": "human",
       "ai_reply": "Irritability is often a hidden sign of stress or sadness. Noticing it is a good first step \u2014 you\u2019re becoming more self-aware.",
       "turn_number": 22,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -138,8 +138,8 @@
       "speaker": "human",
       "ai_reply": "That\u2019s your mind trying to gain control over discomfort. Instead of replaying, try asking: 'What did I need in that moment?' It shifts the focus to self-compassion.",
       "turn_number": 24,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -149,8 +149,8 @@
       "speaker": "human",
       "ai_reply": "You deserve the same gentleness you\u2019d offer a friend. Maybe write one kind sentence to yourself daily \u2014 it slowly retrains your inner voice.",
       "turn_number": 26,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -160,8 +160,8 @@
       "speaker": "human",
       "ai_reply": "Comparison invalidates your pain. Suffering isn\u2019t a competition \u2014 acknowledging your emotions doesn\u2019t take empathy away from others.",
       "turn_number": 28,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -171,8 +171,8 @@
       "speaker": "human",
       "ai_reply": "That feeling of emptiness can come from emotional burnout. Try reconnecting with small sensory pleasures \u2014 smell of coffee, feeling of rain \u2014 to anchor yourself in the present.",
       "turn_number": 30,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -182,8 +182,8 @@
       "speaker": "human",
       "ai_reply": "Creative outlets can reconnect you with joy. Maybe set a tiny goal \u2014 just sketch for five minutes. No expectation, just expression.",
       "turn_number": 32,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -193,8 +193,8 @@
       "speaker": "human",
       "ai_reply": "It\u2019s still there \u2014 just buried under exhaustion. Sparks don\u2019t die; they wait. Rest and gentle curiosity can uncover it again.",
       "turn_number": 34,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -204,8 +204,8 @@
       "speaker": "human",
       "ai_reply": "That sounds like deep loneliness talking. You matter more than your thoughts tell you. Who in your life has made you feel seen before?",
       "turn_number": 36,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -215,8 +215,8 @@
       "speaker": "human",
       "ai_reply": "That\u2019s beautiful. Maybe let her know how much that means \u2014 connection grows when we express gratitude, even in small words.",
       "turn_number": 38,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -226,8 +226,8 @@
       "speaker": "human",
       "ai_reply": "You\u2019re not a burden. You\u2019re human, and needing care doesn\u2019t make you weak \u2014 it makes you real.",
       "turn_number": 40,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -237,8 +237,8 @@
       "speaker": "human",
       "ai_reply": "That\u2019s a coping mechanism, not laziness. But digital rest can help \u2014 replace 10 minutes of scrolling with something soothing, like music or journaling.",
       "turn_number": 42,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -248,8 +248,8 @@
       "speaker": "human",
       "ai_reply": "That\u2019s a great start. Music can regulate mood \u2014 especially if it mirrors your current feeling before guiding you to calmer tones.",
       "turn_number": 44,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -259,8 +259,8 @@
       "speaker": "human",
       "ai_reply": "Fear of the unknown is universal. When the future feels heavy, grounding in the present \u2014 even by naming one thing you control today \u2014 can ease that tension.",
       "turn_number": 46,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   },
   {
@@ -270,8 +270,8 @@
       "speaker": "human",
       "ai_reply": "I\u2019m really glad to hear that. Remember, healing doesn\u2019t happen all at once \u2014 it\u2019s built from these small, honest conversations with yourself and others.",
       "turn_number": 48,
-      "emotion": null,
-      "topic": null
+      "emotion": "test",
+      "topic": "test"
     }
   }
 ]
