@@ -1,2 +1,8 @@
+# Virtual Environment
 /venv
+
+# Chroma Stores, these are quite large, will upload the final one
 /chroma_store
+
+# Secrets and Keys
+.env
