@@ -1,0 +1,75 @@
+[
+  {
+    "text": "I\u2019ve been feeling off lately, like I\u2019m just going through the motions every day.",
+    "timestamp": "2026-01-06T19:54:35.323195",
+    "metadata": {
+      "ai_response": "That sounds really hard. When life starts feeling repetitive or dull, it\u2019s often a sign your mind needs a break or some new stimulus. Can you tell me what\u2019s been draining you lately?",
+      "exchange_number": 1
+    },
+    "emotions_metadata": {
+      "embed_timestamp": "2026-01-09T01:13:20.059887",
+      "emotion_logs": [
+        {
+          "analysis": "The speaker expresses a sense of monotony and disconnection from their daily life, indicating a lack of enthusiasm or happiness.",
+          "dim": "joy",
+          "score": 2
+        },
+        {
+          "analysis": "The speaker's tone implies a sense of resignation and hopelessness, suggesting a feeling of being stuck or trapped.",
+          "dim": "sadness",
+          "score": 8
+        },
+        {
+          "analysis": "There is no apparent fear or anxiety in the speaker's statement, as they seem to be describing a state of emotional numbness rather than apprehension.",
+          "dim": "fear",
+          "score": 1
+        },
+        {
+          "analysis": "The speaker does not express any disgust or distaste for their life or circumstances, only a sense of disconnection.",
+          "dim": "disgust",
+          "score": 1
+        },
+        {
+          "analysis": "The speaker's statement lacks any sense of anticipation or excitement for the future, contributing to the overall feeling of being 'off'.",
+          "dim": "anticipation",
+          "score": 2
+        },
+        {
+          "analysis": "There is no apparent anger or frustration in the speaker's tone, as they seem to be describing a state of emotional flatness.",
+          "dim": "anger",
+          "score": 1
+        },
+        {
+          "analysis": "The speaker's statement does not convey any sense of surprise or unexpectedness, as they seem to be describing a persistent feeling.",
+          "dim": "surprise",
+          "score": 1
+        },
+        {
+          "analysis": "The speaker's tone implies a sense of acceptance or resignation, as they seem to be acknowledging their emotional state without resistance.",
+          "dim": "acceptance",
+          "score": 6
+        }
+      ],
+      "emotion_scores": {
+        "acceptance": 6,
+        "anger": 1,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 1,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "embedding": [
+        6,
+        1,
+        2,
+        1,
+        1,
+        2,
+        8,
+        1
+      ]
+    }
+  }
+]
