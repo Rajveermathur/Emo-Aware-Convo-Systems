@@ -10,6 +10,7 @@ import json
 import ast
 from datetime import datetime
 import time
+from tqdm import tqdm
 
 # Load environment variables
 load_dotenv()
@@ -27,12 +28,11 @@ def make_chunks(chat_data):
             
             # Create chunk
             chunk = {
+                "id": str(uuid4()),
                 "text": human_msg.strip(),
                 "timestamp": datetime.now().isoformat(),
-                "metadata": {
-                    "ai_response": ai_msg.strip(),
-                    "exchange_number": i // 2 + 1
-                }
+                "ai_response": ai_msg.strip(),
+                "exchange_number": i // 2 + 1
             }
             chunks.append(chunk)
         i += 1
@@ -68,17 +68,18 @@ def emotional_embedder(user_query):
     try:
         raw_output = chat_completion.choices[0].message.content
         parsed_data = ast.literal_eval(raw_output.strip()) # Safely parse string to Python object
-        print(validate_emotion_schema(parsed_data)) # Validate schema
-        print("Step 1: ",parsed_data) 
+        print("Input: ", user_query)
+        # print(validate_emotion_schema(parsed_data)) # Validate schema
+        # print("Step 1: ",parsed_data) 
 
         dimension_scores = { # Create dimension-score mapping
         item["dim"]: item["score"]
         for item in parsed_data
         }
-        print("Step 2: ",dimension_scores)
+        # print("Step 2: ",dimension_scores)
         
         sorted_emotions = dict(sorted(dimension_scores.items())) # Sort by dimension name
-        print("Step 3: ",sorted_emotions)
+        # print("Step 3: ",sorted_emotions)
         
         score_list = [sorted_emotions[dim] for dim in sorted_emotions] # Extract scores in sorted order
         print("Step 4: ",score_list)
@@ -127,7 +128,7 @@ if __name__ == "__main__":
     #     chunks = json.load(f)
 
     chunks = make_chunks(chat_data) # Create chunks from chat data
-    for chunk in chunks: 
+    for chunk in tqdm(chunks, desc="Embedding emotions", unit="chunk", total=len(chunks)): 
         emotion_results  = emotional_embedder(chunk["text"]) # Generate emotional embeddings
         chunk["emotions_metadata"] = emotion_results # Attach embeddings to chunk
         time.sleep(10)  # To avoid hitting rate limits

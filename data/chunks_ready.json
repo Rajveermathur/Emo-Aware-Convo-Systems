@@ -1,70 +1,69 @@
 [
   {
+    "id": "2cf79334-972b-415c-ae2f-46f0c4e57804",
     "text": "I\u2019ve been feeling off lately, like I\u2019m just going through the motions every day.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "That sounds really hard. When life starts feeling repetitive or dull, it\u2019s often a sign your mind needs a break or some new stimulus. Can you tell me what\u2019s been draining you lately?",
-      "exchange_number": 1
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "That sounds really hard. When life starts feeling repetitive or dull, it\u2019s often a sign your mind needs a break or some new stimulus. Can you tell me what\u2019s been draining you lately?",
+    "exchange_number": 1,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:02:44.106498",
+      "embed_timestamp": "2026-01-10T17:30:25.355291",
       "emotion_logs": [
         {
-          "analysis": "The speaker expresses a sense of monotony and disconnection, indicating a lack of enthusiasm or happiness.",
+          "analysis": "The interviewer's question implies a sense of discontent and disconnection from daily life, indicating a lack of joy.",
           "dim": "joy",
           "score": 2
         },
         {
-          "analysis": "The speaker's tone implies a sense of resignation, which may be linked to feelings of sadness or hopelessness.",
+          "analysis": "The tone suggests a sense of resignation, which may be linked to feelings of sadness.",
           "dim": "sadness",
           "score": 8
         },
         {
-          "analysis": "There is no apparent fear or anxiety in the speaker's statement, suggesting a sense of emotional numbness rather than apprehension.",
+          "analysis": "There is no apparent fear or anxiety in the statement, but a general sense of being unfulfilled.",
           "dim": "fear",
           "score": 1
         },
         {
-          "analysis": "The speaker does not express any disgust or distaste, focusing instead on their emotional state.",
+          "analysis": "The statement does not express disgust towards anything specific, but rather a general dissatisfaction.",
           "dim": "disgust",
-          "score": 1
-        },
-        {
-          "analysis": "The speaker's statement lacks anticipation or excitement, reflecting their sense of emotional flatness.",
-          "dim": "anticipation",
           "score": 2
         },
         {
-          "analysis": "The speaker's tone does not convey anger or frustration, suggesting a more melancholic state.",
+          "analysis": "The interviewer's tone does not convey anticipation or excitement about the future.",
+          "dim": "anticipation",
+          "score": 1
+        },
+        {
+          "analysis": "There is no apparent anger in the statement, just a sense of emptiness.",
           "dim": "anger",
           "score": 1
         },
         {
-          "analysis": "The speaker's statement is matter-of-fact, without any surprise or astonishment.",
-          "dim": "surprise",
-          "score": 1
+          "analysis": "The statement implies a sense of acceptance of the current state, but not a positive one.",
+          "dim": "acceptance",
+          "score": 6
         },
         {
-          "analysis": "The speaker's emotional state is not one of acceptance or contentment, but rather a sense of disconnection.",
-          "dim": "acceptance",
-          "score": 3
+          "analysis": "The interviewer's question does not express surprise, but rather a sense of monotony.",
+          "dim": "surprise",
+          "score": 1
         }
       ],
       "emotion_scores": {
-        "acceptance": 3,
+        "acceptance": 6,
         "anger": 1,
-        "anticipation": 2,
-        "disgust": 1,
+        "anticipation": 1,
+        "disgust": 2,
         "fear": 1,
         "joy": 2,
         "sadness": 8,
         "surprise": 1
       },
       "embedding": [
-        3,
+        6,
+        1,
         1,
         2,
-        1,
         1,
         2,
         8,
@@ -73,87 +72,85 @@
     }
   },
   {
+    "id": "8b4c1d64-817b-4d04-ac60-c963f5d9c67e",
     "text": "Mostly work. It feels endless, and even after finishing tasks, I don\u2019t feel satisfied.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "That lack of fulfillment might be emotional fatigue. Have you tried reflecting on what parts of work energize you versus what feels meaningless?",
-      "exchange_number": 2
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "That lack of fulfillment might be emotional fatigue. Have you tried reflecting on what parts of work energize you versus what feels meaningless?",
+    "exchange_number": 2,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:02:55.559377",
+      "embed_timestamp": "2026-01-10T17:30:37.158442",
       "emotion_logs": [
         {
-          "analysis": "The speaker expresses a sense of incompleteness and lack of fulfillment despite completing tasks, indicating a negative emotional state.",
+          "analysis": "The speaker expresses a sense of incompleteness and dissatisfaction with their work, indicating a lack of fulfillment.",
           "dim": "acceptance",
           "score": 2
         },
         {
-          "analysis": "There is no direct expression of anger, but the feeling of endless work and lack of satisfaction could be a underlying cause of frustration.",
+          "analysis": "The tone suggests frustration but not intense anger, as the speaker is more focused on the emotional aftermath than the cause of their dissatisfaction.",
           "dim": "anger",
           "score": 4
         },
         {
-          "analysis": "The speaker does not mention looking forward to anything, and the tone is more negative than anticipatory.",
+          "analysis": "There's no mention of looking forward to anything, suggesting a lack of anticipation for future tasks or events.",
           "dim": "anticipation",
           "score": 1
         },
         {
-          "analysis": "The speaker's dissatisfaction could be related to disgust with their current work situation, but it's not explicitly stated.",
+          "analysis": "The speaker doesn't express disgust towards their work, just dissatisfaction, which is more related to sadness than disgust.",
           "dim": "disgust",
+          "score": 2
+        },
+        {
+          "analysis": "There's no direct mention of fear, but the feeling of endless work could imply a fear of not being able to cope or keep up.",
+          "dim": "fear",
           "score": 3
         },
         {
-          "analysis": "There is a sense of being overwhelmed, which might imply a fear of not being able to cope or keep up with the work.",
-          "dim": "fear",
-          "score": 5
-        },
-        {
-          "analysis": "The overall tone is negative, and there's no expression of happiness or joy.",
+          "analysis": "The overall tone lacks any positive emotion, indicating a significant absence of joy.",
           "dim": "joy",
           "score": 1
         },
         {
-          "analysis": "The speaker mentions not feeling satisfied, which indicates a sense of sadness or melancholy about their work situation.",
+          "analysis": "The speaker explicitly mentions not feeling satisfied after completing tasks, which aligns with feelings of sadness and discontent.",
           "dim": "sadness",
           "score": 8
         },
         {
-          "analysis": "There's no element of surprise in the statement; it's more of a statement of fact about their emotional state.",
+          "analysis": "There's no element of surprise in the statement; the speaker seems resigned to their situation.",
           "dim": "surprise",
-          "score": 2
+          "score": 1
         }
       ],
       "emotion_scores": {
         "acceptance": 2,
         "anger": 4,
         "anticipation": 1,
-        "disgust": 3,
-        "fear": 5,
+        "disgust": 2,
+        "fear": 3,
         "joy": 1,
         "sadness": 8,
-        "surprise": 2
+        "surprise": 1
       },
       "embedding": [
         2,
         4,
         1,
+        2,
         3,
-        5,
         1,
         8,
-        2
+        1
       ]
     }
   },
   {
+    "id": "3a2bbfcc-6f7d-4e74-96b4-c50b988da2ae",
     "text": "I used to enjoy collaborating with my team, but now I avoid meetings.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "That could point to social burnout \u2014 when connection feels exhausting instead of refreshing. Maybe starting with small, one-on-one chats could ease you back in.",
-      "exchange_number": 3
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "That could point to social burnout \u2014 when connection feels exhausting instead of refreshing. Maybe starting with small, one-on-one chats could ease you back in.",
+    "exchange_number": 3,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:03:06.895418",
+      "embed_timestamp": "2026-01-10T17:30:48.564868",
       "emotion_logs": [
         {
           "analysis": "The speaker's shift from enjoying collaboration to avoiding meetings indicates a negative emotional change, suggesting a decrease in joy.",
@@ -176,28 +173,28 @@
           "score": 8
         },
         {
-          "analysis": "There is no apparent anticipation or excitement about collaborating with the team, suggesting a low anticipation score.",
+          "analysis": "There is no apparent anticipation or excitement about the team or meetings, suggesting a low score for anticipation.",
           "dim": "anticipation",
           "score": 3
         },
         {
-          "analysis": "The speaker's avoidance of meetings does not necessarily imply disgust towards their team members, but rather towards the meetings themselves.",
+          "analysis": "The speaker does not express disgust towards their team, but rather a sense of disinterest or avoidance.",
           "dim": "disgust",
           "score": 4
         },
         {
-          "analysis": "The speaker's statement does not express surprise about their change in behavior, suggesting a low surprise score.",
+          "analysis": "The speaker's statement does not convey surprise, as the change in behavior seems to be a gradual or expected outcome.",
           "dim": "surprise",
           "score": 2
         },
         {
-          "analysis": "The speaker's avoidance of meetings may indicate a lack of acceptance of the current team dynamics or meeting structure.",
+          "analysis": "The speaker's avoidance of meetings may indicate a lack of acceptance of the current team dynamics or work environment.",
           "dim": "acceptance",
-          "score": 3
+          "score": 5
         }
       ],
       "emotion_scores": {
-        "acceptance": 3,
+        "acceptance": 5,
         "anger": 6,
         "anticipation": 3,
         "disgust": 4,
@@ -207,7 +204,7 @@
         "surprise": 2
       },
       "embedding": [
-        3,
+        5,
         6,
         3,
         4,
@@ -219,87 +216,85 @@
     }
   },
   {
+    "id": "caa913f4-9a80-4273-b15d-75db8bed3355",
     "text": "Yeah, I\u2019ve been canceling plans with friends too. I just want to be alone.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "Wanting solitude isn\u2019t always bad, but total isolation can deepen sadness. Would it feel manageable to text one friend, just to check in?",
-      "exchange_number": 4
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "Wanting solitude isn\u2019t always bad, but total isolation can deepen sadness. Would it feel manageable to text one friend, just to check in?",
+    "exchange_number": 4,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:03:18.404109",
+      "embed_timestamp": "2026-01-10T17:30:59.723283",
       "emotion_logs": [
         {
-          "analysis": "The speaker is expressing a desire to be alone and is canceling plans with friends, indicating a lack of enthusiasm or happiness in social interactions.",
+          "analysis": "The speaker is expressing a desire to be alone and is canceling plans with friends, indicating a lack of enthusiasm or happiness in social interactions",
           "dim": "joy",
           "score": 2
         },
         {
-          "analysis": "The speaker's tone implies a sense of disconnection and withdrawal, which may be rooted in feelings of sadness or depression.",
-          "dim": "sadness",
-          "score": 8
-        },
-        {
-          "analysis": "There is no apparent fear or anxiety driving the speaker's desire to be alone, suggesting that fear is not a primary motivator.",
-          "dim": "fear",
+          "analysis": "The speaker's desire to be alone may be driven by feelings of frustration or irritation with social interactions, but it's not explicitly stated",
+          "dim": "anger",
           "score": 3
         },
         {
-          "analysis": "The speaker's statement does not convey any sense of anticipation or excitement about being alone or engaging in any activity.",
+          "analysis": "There is no apparent excitement or eagerness for future events or plans, suggesting a low level of anticipation",
           "dim": "anticipation",
+          "score": 2
+        },
+        {
+          "analysis": "The speaker's tone does not convey a sense of distaste or revulsion towards anything in particular",
+          "dim": "disgust",
           "score": 1
         },
         {
-          "analysis": "The tone is not angry or aggressive, but rather subdued and withdrawn, indicating a low level of anger.",
-          "dim": "anger",
-          "score": 2
+          "analysis": "The speaker's behavior could be driven by fear of social interactions or fear of being overwhelmed, but it's not explicitly stated",
+          "dim": "fear",
+          "score": 4
         },
         {
-          "analysis": "There is no apparent disgust or distaste for social interactions, but rather a desire to avoid them, suggesting a low level of disgust.",
-          "dim": "disgust",
-          "score": 2
+          "analysis": "The speaker's desire to be alone and cancel plans suggests a sense of sadness or melancholy",
+          "dim": "sadness",
+          "score": 7
         },
         {
-          "analysis": "The speaker's statement does not express surprise or astonishment, but rather a sense of resignation or acceptance.",
+          "analysis": "There is no apparent surprise or astonishment in the speaker's statement",
           "dim": "surprise",
           "score": 1
         },
         {
-          "analysis": "The speaker's desire to be alone and cancel plans may indicate a sense of acceptance or resignation, rather than a desire for social connection or acceptance from others.",
+          "analysis": "The speaker's tone does not convey a sense of acceptance or contentment with their current situation",
           "dim": "acceptance",
-          "score": 6
+          "score": 3
         }
       ],
       "emotion_scores": {
-        "acceptance": 6,
-        "anger": 2,
-        "anticipation": 1,
-        "disgust": 2,
-        "fear": 3,
+        "acceptance": 3,
+        "anger": 3,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 4,
         "joy": 2,
-        "sadness": 8,
+        "sadness": 7,
         "surprise": 1
       },
       "embedding": [
-        6,
-        2,
-        1,
-        2,
+        3,
         3,
         2,
-        8,
+        1,
+        4,
+        2,
+        7,
         1
       ]
     }
   },
   {
+    "id": "a3366f55-1369-455b-9305-45249826a49f",
     "text": "I know I should, but it feels fake when I try to be cheerful.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "You don\u2019t have to fake it. Authentic messages like 'I\u2019ve been low lately but thinking of you' can maintain closeness without pressure.",
-      "exchange_number": 5
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "You don\u2019t have to fake it. Authentic messages like 'I\u2019ve been low lately but thinking of you' can maintain closeness without pressure.",
+    "exchange_number": 5,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:03:29.496049",
+      "embed_timestamp": "2026-01-10T17:31:10.784394",
       "emotion_logs": [
         {
           "analysis": "The speaker is expressing a sense of inauthenticity when trying to be cheerful, indicating a lack of genuine joy.",
@@ -307,72 +302,71 @@
           "score": 2
         },
         {
-          "analysis": "The speaker's admission of feeling fake suggests a sense of discomfort or unease, which can be related to sadness.",
-          "dim": "sadness",
+          "analysis": "The speaker's admission of feeling fake suggests a level of self-awareness and acceptance of their emotional state.",
+          "dim": "acceptance",
           "score": 6
         },
         {
-          "analysis": "There is no apparent acceptance of their current emotional state, as they express a desire to be cheerful.",
-          "dim": "acceptance",
+          "analysis": "There is no apparent anger or frustration in the speaker's statement, just a sense of disconnection from their attempted cheerfulness.",
+          "dim": "anger",
+          "score": 1
+        },
+        {
+          "analysis": "The speaker does not express any anticipation or expectation of a positive outcome from their attempt at being cheerful.",
+          "dim": "anticipation",
           "score": 3
         },
         {
-          "analysis": "No anger is explicitly expressed in the statement, but there might be a hint of frustration with themselves.",
-          "dim": "anger",
+          "analysis": "The speaker's tone does not convey disgust, but rather a sense of discomfort with pretending to be cheerful.",
+          "dim": "disgust",
           "score": 2
         },
         {
-          "analysis": "The speaker does not seem to be looking forward to anything in particular, so anticipation is low.",
-          "dim": "anticipation",
-          "score": 1
-        },
-        {
-          "analysis": "There is no element of disgust in the speaker's statement.",
-          "dim": "disgust",
-          "score": 1
-        },
-        {
-          "analysis": "The speaker's concern about feeling fake does not imply a significant level of fear.",
+          "analysis": "The speaker does not express fear of being judged or rejected for not being cheerful, just a personal discomfort.",
           "dim": "fear",
           "score": 2
         },
         {
-          "analysis": "The realization that their cheerfulness feels fake might be somewhat surprising to the speaker, but it's not a major surprise.",
+          "analysis": "The speaker's statement has a melancholic tone, suggesting a sense of sadness or dissatisfaction with their emotional state.",
+          "dim": "sadness",
+          "score": 5
+        },
+        {
+          "analysis": "The speaker's admission of feeling fake when trying to be cheerful is not surprising, given the common experience of feeling inauthentic in social situations.",
           "dim": "surprise",
           "score": 4
         }
       ],
       "emotion_scores": {
-        "acceptance": 3,
-        "anger": 2,
-        "anticipation": 1,
-        "disgust": 1,
+        "acceptance": 6,
+        "anger": 1,
+        "anticipation": 3,
+        "disgust": 2,
         "fear": 2,
         "joy": 2,
-        "sadness": 6,
+        "sadness": 5,
         "surprise": 4
       },
       "embedding": [
+        6,
+        1,
         3,
         2,
-        1,
-        1,
         2,
         2,
-        6,
+        5,
         4
       ]
     }
   },
   {
+    "id": "22a64646-99fb-4edb-ad3c-a836c2095e79",
     "text": "I\u2019ve also been sleeping too much, even on weekends.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "Oversleeping can be your body\u2019s way of coping with stress or sadness. Would you say your sleep feels restful or more like escape?",
-      "exchange_number": 6
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "Oversleeping can be your body\u2019s way of coping with stress or sadness. Would you say your sleep feels restful or more like escape?",
+    "exchange_number": 6,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:03:40.490672",
+      "embed_timestamp": "2026-01-10T17:31:21.849998",
       "emotion_logs": [
         {
           "analysis": "The speaker is expressing a concern about their sleeping habits, which implies a negative emotional state",
@@ -390,7 +384,7 @@
           "score": 2
         },
         {
-          "analysis": "The speaker does not express any disgust towards themselves or their habits",
+          "analysis": "The speaker does not express any disgust towards themselves or their situation",
           "dim": "disgust",
           "score": 1
         },
@@ -438,127 +432,53 @@
     }
   },
   {
+    "id": "c6278e08-63ed-4343-9b3e-c0a329ed059c",
     "text": "Definitely like escape. I don\u2019t feel rested when I wake up.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "That emotional exhaustion might mean you\u2019re mentally overloaded. Gentle routines \u2014 like morning sunlight or short walks \u2014 can start resetting your mood.",
-      "exchange_number": 7
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "That emotional exhaustion might mean you\u2019re mentally overloaded. Gentle routines \u2014 like morning sunlight or short walks \u2014 can start resetting your mood.",
+    "exchange_number": 7,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:03:51.629740",
+      "embed_timestamp": "2026-01-10T17:31:33.009572",
       "emotion_logs": [
         {
-          "analysis": "The speaker expresses a desire to escape, implying dissatisfaction with their current state, and mentions not feeling rested, indicating a negative emotional tone.",
-          "dim": "acceptance",
-          "score": 2
-        },
-        {
-          "analysis": "The speaker's tone suggests frustration with their sleep, which could be related to anger.",
-          "dim": "anger",
-          "score": 6
-        },
-        {
-          "analysis": "There is no apparent anticipation or expectation of a positive outcome in the speaker's statement.",
-          "dim": "anticipation",
-          "score": 1
-        },
-        {
-          "analysis": "The speaker's dissatisfaction with their sleep could be related to disgust with their current situation.",
-          "dim": "disgust",
-          "score": 4
-        },
-        {
-          "analysis": "The speaker's desire to escape may be driven by fear of not being able to rest or feel refreshed.",
-          "dim": "fear",
-          "score": 5
-        },
-        {
-          "analysis": "The speaker's tone is generally negative, indicating a lack of joy.",
-          "dim": "joy",
-          "score": 1
-        },
-        {
-          "analysis": "The speaker mentions not feeling rested, which could be related to sadness or disappointment.",
-          "dim": "sadness",
-          "score": 7
-        },
-        {
-          "analysis": "The speaker's statement does not express surprise, as it appears to be a familiar or ongoing issue.",
-          "dim": "surprise",
-          "score": 2
-        }
-      ],
-      "emotion_scores": {
-        "acceptance": 2,
-        "anger": 6,
-        "anticipation": 1,
-        "disgust": 4,
-        "fear": 5,
-        "joy": 1,
-        "sadness": 7,
-        "surprise": 2
-      },
-      "embedding": [
-        2,
-        6,
-        1,
-        4,
-        5,
-        1,
-        7,
-        2
-      ]
-    }
-  },
-  {
-    "text": "I\u2019ve tried meditation, but I can\u2019t focus. My mind keeps wandering.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "That\u2019s normal when you\u2019re overwhelmed. Try grounding instead \u2014 focus on what you can see, hear, and touch. It\u2019s mindfulness without the pressure to clear your mind.",
-      "exchange_number": 8
-    },
-    "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:04:02.824388",
-      "emotion_logs": [
-        {
-          "analysis": "The speaker expresses frustration with their inability to focus during meditation, indicating a sense of discontent.",
-          "dim": "anger",
-          "score": 4
-        },
-        {
-          "analysis": "The speaker's mind wandering suggests a lack of mental discipline, which may evoke feelings of disappointment.",
+          "analysis": "The speaker expresses a desire to escape, implying a sense of dissatisfaction with their current state, which is likely due to not feeling rested after waking up.",
           "dim": "sadness",
           "score": 6
         },
         {
-          "analysis": "The speaker has attempted meditation, showing an openness to new experiences and a willingness to try, which implies a level of acceptance.",
-          "dim": "acceptance",
-          "score": 7
+          "analysis": "The use of the word 'definitely' indicates a strong preference for escape, suggesting a sense of frustration or desperation.",
+          "dim": "anger",
+          "score": 4
         },
         {
-          "analysis": "There is no apparent fear or anxiety related to the practice of meditation itself.",
+          "analysis": "The speaker's admission of not feeling rested implies a sense of discomfort or unease, which may be related to fear or anxiety about their sleep or daily life.",
           "dim": "fear",
-          "score": 2
+          "score": 5
         },
         {
-          "analysis": "The speaker does not express any disgust towards meditation or the idea of mindfulness.",
-          "dim": "disgust",
+          "analysis": "There is no apparent sense of joy or happiness in the speaker's statement, as they are focused on their negative experience.",
+          "dim": "joy",
           "score": 1
         },
         {
-          "analysis": "The act of trying meditation and discussing the challenge suggests a degree of anticipation for potential benefits or self-improvement.",
+          "analysis": "The speaker's tone does not convey surprise, as they seem to be aware of their lack of restful sleep.",
+          "dim": "surprise",
+          "score": 2
+        },
+        {
+          "analysis": "The speaker's desire to escape may be motivated by a sense of anticipation for a better state of being, such as feeling rested or relaxed.",
           "dim": "anticipation",
           "score": 5
         },
         {
-          "analysis": "The tone does not convey excitement or happiness about the meditation experience, so joy is not a dominant emotion.",
-          "dim": "joy",
-          "score": 3
+          "analysis": "The speaker's statement does not express disgust, as their focus is on their personal experience rather than something they find repulsive.",
+          "dim": "disgust",
+          "score": 1
         },
         {
-          "analysis": "The realization that one's mind wanders during meditation might be surprising at first, but the speaker seems more frustrated than surprised by this experience.",
-          "dim": "surprise",
-          "score": 4
+          "analysis": "The speaker's tone implies a sense of acceptance, as they acknowledge their current state and express a desire for change.",
+          "dim": "acceptance",
+          "score": 7
         }
       ],
       "emotion_scores": {
@@ -566,105 +486,175 @@
         "anger": 4,
         "anticipation": 5,
         "disgust": 1,
-        "fear": 2,
-        "joy": 3,
+        "fear": 5,
+        "joy": 1,
         "sadness": 6,
-        "surprise": 4
+        "surprise": 2
       },
       "embedding": [
         7,
         4,
         5,
         1,
-        2,
-        3,
+        5,
+        1,
         6,
-        4
+        2
       ]
     }
   },
   {
-    "text": "Sometimes I feel like I\u2019m failing at self-care.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "Self-care isn\u2019t a test you pass or fail. It\u2019s a process of noticing what you need \u2014 sometimes that\u2019s rest, sometimes it\u2019s asking for help.",
-      "exchange_number": 9
-    },
+    "id": "ccd069e3-7c19-4a13-b9ed-7108e9b9f015",
+    "text": "I\u2019ve tried meditation, but I can\u2019t focus. My mind keeps wandering.",
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "That\u2019s normal when you\u2019re overwhelmed. Try grounding instead \u2014 focus on what you can see, hear, and touch. It\u2019s mindfulness without the pressure to clear your mind.",
+    "exchange_number": 8,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:04:14.319103",
+      "embed_timestamp": "2026-01-10T17:31:44.247498",
       "emotion_logs": [
         {
-          "analysis": "The speaker is expressing a sense of inadequacy regarding their self-care, indicating a lack of fulfillment or happiness in this aspect of their life.",
-          "dim": "joy",
+          "analysis": "The speaker expresses frustration with their inability to focus during meditation, indicating a sense of discontent.",
+          "dim": "acceptance",
           "score": 2
         },
         {
-          "analysis": "The use of the word 'failing' implies a sense of disappointment or sorrow, suggesting that the speaker is not meeting their own expectations for self-care.",
-          "dim": "sadness",
-          "score": 8
-        },
-        {
-          "analysis": "There is no apparent anger or frustration in the statement, as the speaker is reflecting on their own feelings rather than directing negative emotions towards someone or something else.",
+          "analysis": "The speaker's tone implies irritation with their mind wandering, suggesting a low level of anger.",
           "dim": "anger",
+          "score": 4
+        },
+        {
+          "analysis": "There is no apparent expectation or excitement about meditation, so anticipation is low.",
+          "dim": "anticipation",
           "score": 1
         },
         {
-          "analysis": "The speaker does not express any fear of consequences or negative outcomes related to their self-care, so fear is not a dominant emotion in this statement.",
-          "dim": "fear",
-          "score": 2
-        },
-        {
-          "analysis": "The statement does not convey a sense of surprise, as the speaker seems to be acknowledging and accepting their feelings about their self-care.",
-          "dim": "surprise",
-          "score": 1
-        },
-        {
-          "analysis": "The speaker is not expressing disgust towards themselves or their self-care habits, but rather a sense of disappointment or inadequacy.",
+          "analysis": "The speaker does not express distaste or revulsion towards meditation, so disgust is minimal.",
           "dim": "disgust",
           "score": 1
         },
         {
-          "analysis": "There is no apparent anticipation or expectation of something positive or negative happening in the future related to their self-care.",
-          "dim": "anticipation",
+          "analysis": "The speaker's concern about their inability to focus may indicate a slight fear of not being able to meditate properly.",
+          "dim": "fear",
+          "score": 3
+        },
+        {
+          "analysis": "The speaker's tone does not convey happiness or enthusiasm about meditation, so joy is low.",
+          "dim": "joy",
           "score": 2
         },
         {
-          "analysis": "The speaker seems to be struggling with self-acceptance, as they are expressing dissatisfaction with their self-care, indicating a lower level of acceptance.",
-          "dim": "acceptance",
-          "score": 3
+          "analysis": "The speaker's frustration and disappointment with their meditation experience may indicate a moderate level of sadness.",
+          "dim": "sadness",
+          "score": 6
+        },
+        {
+          "analysis": "The speaker's statement is a straightforward expression of their experience, without any surprising or unexpected elements.",
+          "dim": "surprise",
+          "score": 1
         }
       ],
       "emotion_scores": {
-        "acceptance": 3,
-        "anger": 1,
-        "anticipation": 2,
+        "acceptance": 2,
+        "anger": 4,
+        "anticipation": 1,
         "disgust": 1,
-        "fear": 2,
+        "fear": 3,
         "joy": 2,
-        "sadness": 8,
+        "sadness": 6,
         "surprise": 1
       },
       "embedding": [
+        2,
+        4,
+        1,
+        1,
         3,
-        1,
         2,
-        1,
-        2,
-        2,
-        8,
+        6,
         1
       ]
     }
   },
   {
-    "text": "Speaking of help, I\u2019ve thought about therapy, but I\u2019m nervous.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "That\u2019s totally understandable. Starting therapy can feel intimidating, but remember: therapists aren\u2019t judging; they\u2019re trained to listen and guide safely.",
-      "exchange_number": 10
-    },
+    "id": "7b1d2e8f-ba1c-432b-90bf-49750265b960",
+    "text": "Sometimes I feel like I\u2019m failing at self-care.",
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "Self-care isn\u2019t a test you pass or fail. It\u2019s a process of noticing what you need \u2014 sometimes that\u2019s rest, sometimes it\u2019s asking for help.",
+    "exchange_number": 9,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:04:25.504802",
+      "embed_timestamp": "2026-01-10T17:31:55.639642",
+      "emotion_logs": [
+        {
+          "analysis": "The speaker is expressing a sense of inadequacy regarding their self-care, which implies a lack of fulfillment or happiness.",
+          "dim": "joy",
+          "score": 2
+        },
+        {
+          "analysis": "The use of the word 'failing' indicates a negative emotional state, which is associated with sadness or disappointment.",
+          "dim": "sadness",
+          "score": 8
+        },
+        {
+          "analysis": "There is no apparent anger or aggression in the statement, suggesting a low level of anger.",
+          "dim": "anger",
+          "score": 1
+        },
+        {
+          "analysis": "The speaker's admission of struggling with self-care may imply a sense of fear or apprehension about their well-being.",
+          "dim": "fear",
+          "score": 6
+        },
+        {
+          "analysis": "The tone of the statement does not convey surprise, as the speaker seems to be acknowledging a persistent feeling.",
+          "dim": "surprise",
+          "score": 2
+        },
+        {
+          "analysis": "The statement lacks a sense of anticipation or expectation for something positive to happen.",
+          "dim": "anticipation",
+          "score": 3
+        },
+        {
+          "analysis": "There is no apparent disgust or distaste in the speaker's words, suggesting a low level of disgust.",
+          "dim": "disgust",
+          "score": 1
+        },
+        {
+          "analysis": "The speaker's expression of struggle with self-care implies a lack of acceptance of their current situation.",
+          "dim": "acceptance",
+          "score": 4
+        }
+      ],
+      "emotion_scores": {
+        "acceptance": 4,
+        "anger": 1,
+        "anticipation": 3,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "embedding": [
+        4,
+        1,
+        3,
+        1,
+        6,
+        2,
+        8,
+        2
+      ]
+    }
+  },
+  {
+    "id": "a78bcd63-8a80-4f8a-ae70-ef76b61d7fd9",
+    "text": "Speaking of help, I\u2019ve thought about therapy, but I\u2019m nervous.",
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "That\u2019s totally understandable. Starting therapy can feel intimidating, but remember: therapists aren\u2019t judging; they\u2019re trained to listen and guide safely.",
+    "exchange_number": 10,
+    "emotions_metadata": {
+      "embed_timestamp": "2026-01-10T17:32:07.010338",
       "emotion_logs": [
         {
           "analysis": "The speaker is hesitant about seeking help due to anxiety, indicating a lack of confidence in the process.",
@@ -672,12 +662,12 @@
           "score": 4
         },
         {
-          "analysis": "There is no apparent anger towards therapy or the idea of seeking help.",
+          "analysis": "There is no apparent anger towards therapy or the idea of seeking help, just apprehension.",
           "dim": "anger",
           "score": 1
         },
         {
-          "analysis": "The consideration of therapy implies some level of anticipation for positive change or improvement.",
+          "analysis": "The speaker is considering therapy, showing some level of anticipation or expectation for positive change.",
           "dim": "anticipation",
           "score": 6
         },
@@ -692,19 +682,19 @@
           "score": 8
         },
         {
-          "analysis": "There is no apparent joy or happiness associated with the consideration of therapy at this point.",
+          "analysis": "There is no apparent joy or happiness expressed about the prospect of therapy.",
           "dim": "joy",
           "score": 2
         },
         {
-          "analysis": "The speaker's nervousness may stem from a place of sadness or dissatisfaction with their current situation.",
+          "analysis": "The speaker's nervousness could imply a underlying sadness or dissatisfaction with their current situation.",
           "dim": "sadness",
           "score": 5
         },
         {
-          "analysis": "The consideration of therapy might be a new or unexpected step for the speaker, indicating some level of surprise at their own willingness to seek help.",
+          "analysis": "The consideration of therapy might be a new or surprising thought for the speaker, but it's not explicitly stated as surprising.",
           "dim": "surprise",
-          "score": 4
+          "score": 3
         }
       ],
       "emotion_scores": {
@@ -715,7 +705,7 @@
         "fear": 8,
         "joy": 2,
         "sadness": 5,
-        "surprise": 4
+        "surprise": 3
       },
       "embedding": [
         4,
@@ -725,19 +715,18 @@
         8,
         2,
         5,
-        4
+        3
       ]
     }
   },
   {
+    "id": "8b36660e-5cae-40ab-8dc4-151b1cb07526",
     "text": "I worry they\u2019ll think my problems aren\u2019t serious enough.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "Every feeling that weighs on you is valid. Therapy isn\u2019t only for crises \u2014 it\u2019s for building understanding and tools before things worsen.",
-      "exchange_number": 11
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "Every feeling that weighs on you is valid. Therapy isn\u2019t only for crises \u2014 it\u2019s for building understanding and tools before things worsen.",
+    "exchange_number": 11,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:04:36.724396",
+      "embed_timestamp": "2026-01-10T17:32:18.152094",
       "emotion_logs": [
         {
           "analysis": "The speaker is expressing concern about being perceived as not having significant problems, indicating a sense of vulnerability and apprehension.",
@@ -745,72 +734,71 @@
           "score": 8
         },
         {
-          "analysis": "There's an underlying tone of self-doubt and potential sadness due to the worry of not being taken seriously.",
+          "analysis": "There is an underlying tone of self-doubt and potential sadness due to the speaker's worry about being judged.",
           "dim": "sadness",
           "score": 6
         },
         {
-          "analysis": "The speaker's concern about others' perceptions suggests a desire for acceptance and understanding.",
+          "analysis": "The speaker's concern about being perceived in a certain way suggests a desire for acceptance and understanding.",
           "dim": "acceptance",
-          "score": 7
+          "score": 5
         },
         {
-          "analysis": "No strong emotions of anger, anticipation, disgust, joy, or surprise are evident in this statement.",
+          "analysis": "There is no apparent anger or frustration in the statement, just a sense of worry and vulnerability.",
           "dim": "anger",
           "score": 2
         },
         {
-          "analysis": "No strong emotions of anger, anticipation, disgust, joy, or surprise are evident in this statement.",
+          "analysis": "The speaker is not expressing excitement or enthusiasm, so anticipation is not a dominant emotion.",
           "dim": "anticipation",
-          "score": 3
+          "score": 2
         },
         {
-          "analysis": "No strong emotions of anger, anticipation, disgust, joy, or surprise are evident in this statement.",
+          "analysis": "There is no disgust or distaste expressed in the statement.",
           "dim": "disgust",
           "score": 1
         },
         {
-          "analysis": "No strong emotions of anger, anticipation, disgust, joy, or surprise are evident in this statement.",
-          "dim": "joy",
-          "score": 1
+          "analysis": "The speaker's worry does not seem to be driven by a sense of surprise or unexpected events.",
+          "dim": "surprise",
+          "score": 2
         },
         {
-          "analysis": "The worry about being perceived in a certain way might lead to a slight surprise if the outcome is different from expected, but it's not a dominant emotion.",
-          "dim": "surprise",
-          "score": 4
+          "analysis": "While there is some negative emotion, the overall tone is not overwhelmingly joyful, and joy is not a dominant emotion in this statement.",
+          "dim": "joy",
+          "score": 1
         }
       ],
       "emotion_scores": {
-        "acceptance": 7,
+        "acceptance": 5,
         "anger": 2,
-        "anticipation": 3,
+        "anticipation": 2,
         "disgust": 1,
         "fear": 8,
         "joy": 1,
         "sadness": 6,
-        "surprise": 4
+        "surprise": 2
       },
       "embedding": [
-        7,
+        5,
         2,
-        3,
+        2,
         1,
         8,
         1,
         6,
-        4
+        2
       ]
     }
   },
   {
+    "id": "9ff97c4b-447d-4480-bcd9-d7ef434501e8",
     "text": "I\u2019ve also been snapping at people over small things.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "Irritability is often a hidden sign of stress or sadness. Noticing it is a good first step \u2014 you\u2019re becoming more self-aware.",
-      "exchange_number": 12
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "Irritability is often a hidden sign of stress or sadness. Noticing it is a good first step \u2014 you\u2019re becoming more self-aware.",
+    "exchange_number": 12,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:04:47.732623",
+      "embed_timestamp": "2026-01-10T17:32:29.215987",
       "emotion_logs": [
         {
           "analysis": "The interviewer is expressing a sense of frustration and irritability, which is often a sign of underlying emotional distress.",
@@ -823,7 +811,7 @@
           "score": 6
         },
         {
-          "analysis": "The mention of snapping at people implies a sense of loss of control or emotional regulation, which can be linked to feelings of fear or anxiety.",
+          "analysis": "The mention of snapping at people implies a sense of loss of control or emotional regulation, which can be related to fear of not being able to manage one's emotions.",
           "dim": "fear",
           "score": 4
         },
@@ -838,25 +826,25 @@
           "score": 1
         },
         {
-          "analysis": "The interviewer does not seem to be expressing disgust towards themselves or others.",
+          "analysis": "The statement does not express any strong sense of anticipation or expectation.",
+          "dim": "anticipation",
+          "score": 2
+        },
+        {
+          "analysis": "The behavior described is not necessarily disgusting, but rather frustrating or annoying.",
           "dim": "disgust",
           "score": 2
         },
         {
-          "analysis": "The statement does not convey a sense of surprise or astonishment.",
+          "analysis": "The statement does not convey a sense of surprise, as the interviewer seems to be aware of their behavior and its impact.",
           "dim": "surprise",
           "score": 1
-        },
-        {
-          "analysis": "The interviewer may be looking forward to understanding and addressing the underlying causes of their behavior, which could be linked to anticipation.",
-          "dim": "anticipation",
-          "score": 3
         }
       ],
       "emotion_scores": {
         "acceptance": 6,
         "anger": 8,
-        "anticipation": 3,
+        "anticipation": 2,
         "disgust": 2,
         "fear": 4,
         "joy": 1,
@@ -866,7 +854,7 @@
       "embedding": [
         6,
         8,
-        3,
+        2,
         2,
         4,
         1,
@@ -876,87 +864,85 @@
     }
   },
   {
+    "id": "9cf62d4d-ee67-4cf5-b543-bd0c67cd7205",
     "text": "I keep replaying awkward conversations in my head.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "That\u2019s your mind trying to gain control over discomfort. Instead of replaying, try asking: 'What did I need in that moment?' It shifts the focus to self-compassion.",
-      "exchange_number": 13
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "That\u2019s your mind trying to gain control over discomfort. Instead of replaying, try asking: 'What did I need in that moment?' It shifts the focus to self-compassion.",
+    "exchange_number": 13,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:04:59.079624",
+      "embed_timestamp": "2026-01-10T17:32:40.492215",
       "emotion_logs": [
         {
-          "analysis": "The user is reflecting on past interactions, indicating a sense of regret or longing for a different outcome, which is a sign of sadness.",
-          "dim": "sadness",
-          "score": 8
-        },
-        {
-          "analysis": "The act of replaying conversations suggests a desire for acceptance or approval, which is not fully met, leading to a moderate level of acceptance.",
+          "analysis": "The user is reflecting on past interactions, indicating a sense of regret or dissatisfaction, which is linked to a lack of acceptance.",
           "dim": "acceptance",
-          "score": 4
-        },
-        {
-          "analysis": "There is no apparent anger or frustration in the statement, so the anger dimension is relatively low.",
-          "dim": "anger",
           "score": 2
         },
         {
-          "analysis": "The user does not express any anticipation of future events or conversations, so anticipation is low.",
+          "analysis": "There is no apparent anger or frustration in the statement, just a neutral reflection on past conversations.",
+          "dim": "anger",
+          "score": 1
+        },
+        {
+          "analysis": "The user is not looking forward to anything, but rather dwelling on the past, so anticipation is low.",
           "dim": "anticipation",
           "score": 1
         },
         {
-          "analysis": "The statement does not convey disgust towards any person, event, or situation, resulting in a low disgust score.",
+          "analysis": "The tone does not convey disgust, but rather a sense of discomfort or awkwardness.",
           "dim": "disgust",
-          "score": 1
-        },
-        {
-          "analysis": "The user's reflection on awkward conversations may evoke a slight fear of similar situations in the future, but it is not the primary emotion.",
-          "dim": "fear",
-          "score": 3
-        },
-        {
-          "analysis": "The overall tone of the statement is not joyful, as it focuses on negative experiences, resulting in a low joy score.",
-          "dim": "joy",
           "score": 2
         },
         {
-          "analysis": "The user's reflection on past conversations does not express surprise, as it seems to be a recurring thought, leading to a low surprise score.",
+          "analysis": "The user's reflection on awkward conversations may stem from a fear of social interactions or fear of being judged.",
+          "dim": "fear",
+          "score": 6
+        },
+        {
+          "analysis": "Replaying awkward conversations does not evoke feelings of joy, but rather the opposite.",
+          "dim": "joy",
+          "score": 1
+        },
+        {
+          "analysis": "The user's action of replaying conversations implies a sense of sadness or regret about how things went.",
+          "dim": "sadness",
+          "score": 8
+        },
+        {
+          "analysis": "There is no element of surprise in the statement, as it describes a habitual or common behavior for the user.",
           "dim": "surprise",
           "score": 1
         }
       ],
       "emotion_scores": {
-        "acceptance": 4,
-        "anger": 2,
+        "acceptance": 2,
+        "anger": 1,
         "anticipation": 1,
-        "disgust": 1,
-        "fear": 3,
-        "joy": 2,
+        "disgust": 2,
+        "fear": 6,
+        "joy": 1,
         "sadness": 8,
         "surprise": 1
       },
       "embedding": [
-        4,
         2,
         1,
         1,
-        3,
         2,
+        6,
+        1,
         8,
         1
       ]
     }
   },
   {
+    "id": "ab6f0954-4a90-4db3-8449-565233137f17",
     "text": "I wish I could stop being so harsh on myself.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "You deserve the same gentleness you\u2019d offer a friend. Maybe write one kind sentence to yourself daily \u2014 it slowly retrains your inner voice.",
-      "exchange_number": 14
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "You deserve the same gentleness you\u2019d offer a friend. Maybe write one kind sentence to yourself daily \u2014 it slowly retrains your inner voice.",
+    "exchange_number": 14,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:05:10.069991",
+      "embed_timestamp": "2026-01-10T17:32:51.551991",
       "emotion_logs": [
         {
           "analysis": "The speaker is expressing a desire to change their self-critical behavior, indicating a sense of self-awareness and a need for self-acceptance.",
@@ -969,7 +955,7 @@
           "score": 6
         },
         {
-          "analysis": "There is no apparent anticipation of a specific event or outcome in this statement.",
+          "analysis": "There is no apparent anticipation of a specific event or outcome in the statement.",
           "dim": "anticipation",
           "score": 2
         },
@@ -994,7 +980,7 @@
           "score": 7
         },
         {
-          "analysis": "There is no apparent surprise or unexpectedness in this statement, as the speaker is simply expressing a personal sentiment.",
+          "analysis": "The statement does not express surprise, as the speaker seems to be aware of their self-critical tendencies.",
           "dim": "surprise",
           "score": 1
         }
@@ -1022,87 +1008,85 @@
     }
   },
   {
+    "id": "314588ab-9f76-4c4b-a927-11c4c1d2c3ea",
     "text": "I feel guilty for being sad when others have it worse.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "Comparison invalidates your pain. Suffering isn\u2019t a competition \u2014 acknowledging your emotions doesn\u2019t take empathy away from others.",
-      "exchange_number": 15
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "Comparison invalidates your pain. Suffering isn\u2019t a competition \u2014 acknowledging your emotions doesn\u2019t take empathy away from others.",
+    "exchange_number": 15,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:05:21.392309",
+      "embed_timestamp": "2026-01-10T17:33:03.328093",
       "emotion_logs": [
         {
-          "analysis": "The speaker is acknowledging their own emotional state while also considering the plight of others, indicating a sense of empathy and self-awareness, which slightly tempers the sadness but doesn't eliminate it, hence a moderate score for sadness",
-          "dim": "sadness",
+          "analysis": "The speaker is acknowledging their emotional state and expressing remorse for feeling sad despite recognizing that others may be experiencing more difficulties, indicating a sense of emotional awareness and empathy.",
+          "dim": "acceptance",
           "score": 6
         },
         {
-          "analysis": "The acknowledgment of others having it worse suggests a level of acceptance of their situation and a broader perspective, indicating a moderate level of acceptance",
-          "dim": "acceptance",
-          "score": 5
-        },
-        {
-          "analysis": "There's no direct expression of anger towards themselves or others for their situation, so anger is minimal",
+          "analysis": "There is no direct expression of anger towards oneself or others in the statement, but the guilt could be a mild form of self-directed frustration.",
           "dim": "anger",
           "score": 2
         },
         {
-          "analysis": "The comparison to others doesn't imply anticipation of a better or worse future for themselves, so anticipation is low",
+          "analysis": "The statement does not convey any expectation or excitement about the future, so anticipation is not a dominant emotion here.",
           "dim": "anticipation",
-          "score": 3
+          "score": 1
         },
         {
-          "analysis": "The sentiment doesn't express disgust towards their feelings or situation, so disgust is low",
+          "analysis": "The sentiment of disgust is not present as the speaker is reflecting on their emotional state rather than expressing distaste for something.",
           "dim": "disgust",
           "score": 1
         },
         {
-          "analysis": "There's a hint of fear in feeling guilty for their emotions, suggesting a slight fear of not being allowed to feel sad or of being judged, but it's not the dominant emotion",
+          "analysis": "The acknowledgment of others having it worse might imply a subtle fear of not being justified in their feelings or a fear of being seen as insensitive, but it's not a primary emotion expressed.",
           "dim": "fear",
-          "score": 4
+          "score": 3
         },
         {
-          "analysis": "The overall tone is more melancholic than joyful, so joy is low",
+          "analysis": "The overall tone is not joyful; instead, it's reflective and somewhat melancholic, indicating a lack of happiness.",
           "dim": "joy",
           "score": 2
         },
         {
-          "analysis": "The realization and acknowledgment of their feelings compared to others might evoke a slight surprise at their own emotional response, but it's not a dominant emotion",
+          "analysis": "The speaker's sadness is explicitly mentioned, and the guilt they feel for being sad amplifies the sense of sorrow, making sadness a prominent emotion in the statement.",
+          "dim": "sadness",
+          "score": 8
+        },
+        {
+          "analysis": "There's no element of surprise in the statement; the speaker seems to be introspectively aware of their feelings and the context.",
           "dim": "surprise",
-          "score": 3
+          "score": 1
         }
       ],
       "emotion_scores": {
-        "acceptance": 5,
+        "acceptance": 6,
         "anger": 2,
-        "anticipation": 3,
+        "anticipation": 1,
         "disgust": 1,
-        "fear": 4,
+        "fear": 3,
         "joy": 2,
-        "sadness": 6,
-        "surprise": 3
+        "sadness": 8,
+        "surprise": 1
       },
       "embedding": [
-        5,
-        2,
-        3,
-        1,
-        4,
-        2,
         6,
-        3
+        2,
+        1,
+        1,
+        3,
+        2,
+        8,
+        1
       ]
     }
   },
   {
+    "id": "baef7b83-aec4-4970-b4ec-dfa9ddc3f057",
     "text": "That makes sense. But sometimes I just feel empty, like nothing matters.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "That feeling of emptiness can come from emotional burnout. Try reconnecting with small sensory pleasures \u2014 smell of coffee, feeling of rain \u2014 to anchor yourself in the present.",
-      "exchange_number": 16
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "That feeling of emptiness can come from emotional burnout. Try reconnecting with small sensory pleasures \u2014 smell of coffee, feeling of rain \u2014 to anchor yourself in the present.",
+    "exchange_number": 16,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:05:32.306056",
+      "embed_timestamp": "2026-01-10T17:33:14.150450",
       "emotion_logs": [
         {
           "analysis": "The user is expressing a feeling of emotional numbness and detachment, indicating a lack of positive emotions.",
@@ -1115,22 +1099,22 @@
           "score": 8
         },
         {
-          "analysis": "There is no apparent fear or anxiety in the user's statement, but rather a sense of emptiness.",
+          "analysis": "There is no apparent fear or anxiety in the user's statement, but rather a sense of emotional flatness.",
           "dim": "fear",
           "score": 3
         },
         {
-          "analysis": "The user does not express any disgust or distaste, but rather a sense of emotional void.",
+          "analysis": "The user does not express any disgust or distaste, but rather a sense of emptiness.",
           "dim": "disgust",
           "score": 1
         },
         {
-          "analysis": "The user's statement does not convey any sense of anticipation or expectation.",
+          "analysis": "The user's statement does not convey any sense of anticipation or excitement.",
           "dim": "anticipation",
           "score": 2
         },
         {
-          "analysis": "There is no apparent anger or frustration in the user's statement, but rather a sense of resignation.",
+          "analysis": "The user's tone does not suggest any anger or frustration, but rather a sense of resignation.",
           "dim": "anger",
           "score": 2
         },
@@ -1140,7 +1124,7 @@
           "score": 1
         },
         {
-          "analysis": "The user's feelings of emptiness and detachment suggest a lack of acceptance and emotional connection.",
+          "analysis": "The user's emotional state is not one of acceptance, but rather a sense of disconnection.",
           "dim": "acceptance",
           "score": 4
         }
@@ -1168,14 +1152,13 @@
     }
   },
   {
+    "id": "bf78baa6-f537-4580-b293-70a7f733301b",
     "text": "I used to love painting, but I haven\u2019t picked up a brush in months.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "Creative outlets can reconnect you with joy. Maybe set a tiny goal \u2014 just sketch for five minutes. No expectation, just expression.",
-      "exchange_number": 17
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "Creative outlets can reconnect you with joy. Maybe set a tiny goal \u2014 just sketch for five minutes. No expectation, just expression.",
+    "exchange_number": 17,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:05:44.022473",
+      "embed_timestamp": "2026-01-10T17:33:25.858743",
       "emotion_logs": [
         {
           "analysis": "The speaker expresses a past love for painting, indicating a previous positive emotional connection, but the current state of not having painted in months suggests a loss or disconnection from this activity, leading to a sense of sadness.",
@@ -1188,213 +1171,210 @@
           "score": 4
         },
         {
-          "analysis": "There is an implicit acceptance of the speaker\u2019s current situation, as they acknowledge not having painted without overt negative emotion towards themselves.",
-          "dim": "acceptance",
-          "score": 6
-        },
-        {
-          "analysis": "No explicit fear is mentioned in the statement, but there could be an underlying fear of not being able to paint as well as they used to, or fear of losing the skill, though this is speculative and not directly stated.",
+          "analysis": "There is no explicit expression of fear, but the speaker\u2019s disconnection from a once-enjoyed activity might imply a subtle fear of not being able to recapture the joy or skill they once had.",
           "dim": "fear",
           "score": 2
         },
         {
-          "analysis": "There is no indication of anger in the statement; the tone seems more reflective than confrontational.",
+          "analysis": "The speaker does not express anger towards painting or the situation, so anger is minimal.",
           "dim": "anger",
           "score": 1
         },
         {
-          "analysis": "Disgust is not apparent in the statement; the speaker\u2019s feelings towards painting seem to be more about disconnection than distaste.",
+          "analysis": "There is no indication of disgust towards painting or related activities.",
           "dim": "disgust",
           "score": 1
         },
         {
-          "analysis": "The speaker does not express surprise about their situation; the tone is more matter-of-fact.",
-          "dim": "surprise",
-          "score": 1
+          "analysis": "The speaker\u2019s reflection on not having painted in months might suggest a slight anticipation or hope to possibly return to painting, but it is not strongly expressed.",
+          "dim": "anticipation",
+          "score": 3
         },
         {
-          "analysis": "There is a lack of anticipation expressed in the statement; the speaker does not mention plans or desires to start painting again, which might suggest a sense of resignation rather than looking forward to painting.",
-          "dim": "anticipation",
+          "analysis": "The speaker seems to accept their current situation of not painting, showing a level of acceptance.",
+          "dim": "acceptance",
+          "score": 6
+        },
+        {
+          "analysis": "The statement is more reflective than surprising, so surprise is not a dominant emotion.",
+          "dim": "surprise",
           "score": 2
         }
       ],
       "emotion_scores": {
         "acceptance": 6,
         "anger": 1,
-        "anticipation": 2,
+        "anticipation": 3,
         "disgust": 1,
         "fear": 2,
         "joy": 4,
         "sadness": 8,
-        "surprise": 1
+        "surprise": 2
       },
       "embedding": [
         6,
         1,
-        2,
+        3,
         1,
         2,
         4,
         8,
-        1
+        2
       ]
     }
   },
   {
+    "id": "229750de-f9c7-4658-8bc2-44e8d66c954f",
     "text": "I worry I\u2019ve lost my spark for good.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "It\u2019s still there \u2014 just buried under exhaustion. Sparks don\u2019t die; they wait. Rest and gentle curiosity can uncover it again.",
-      "exchange_number": 18
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "It\u2019s still there \u2014 just buried under exhaustion. Sparks don\u2019t die; they wait. Rest and gentle curiosity can uncover it again.",
+    "exchange_number": 18,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:05:55.311548",
+      "embed_timestamp": "2026-01-10T17:33:37.123497",
       "emotion_logs": [
         {
-          "analysis": "The interviewer is expressing concern about their current state, implying a sense of loss and longing for something that once brought them excitement or passion.",
-          "dim": "sadness",
-          "score": 8
-        },
-        {
-          "analysis": "The use of the word 'worry' indicates a sense of apprehension about the future, suggesting that the interviewer is fearful of not being able to regain their spark.",
-          "dim": "fear",
-          "score": 7
-        },
-        {
-          "analysis": "The phrase 'for good' implies a sense of finality, which may evoke a feeling of disgust or dissatisfaction with their current situation.",
-          "dim": "disgust",
-          "score": 4
-        },
-        {
-          "analysis": "There is no apparent sense of anger in the statement, as the tone is more melancholic than aggressive.",
-          "dim": "anger",
+          "analysis": "The interviewer is expressing concern and self-doubt about their current state, indicating a lack of confidence and happiness.",
+          "dim": "acceptance",
           "score": 2
         },
         {
-          "analysis": "The interviewer's concern about losing their spark suggests a lack of anticipation or excitement for the future.",
+          "analysis": "There is no apparent anger or frustration in the statement, just a sense of loss and worry.",
+          "dim": "anger",
+          "score": 1
+        },
+        {
+          "analysis": "The interviewer is looking back at a past state, implying they are not currently anticipating a positive change.",
           "dim": "anticipation",
           "score": 3
         },
         {
-          "analysis": "The overall tone of the statement is not joyful, as it expresses a sense of loss and concern.",
-          "dim": "joy",
+          "analysis": "The tone is melancholic, but not disgusted or repulsed by their situation.",
+          "dim": "disgust",
           "score": 1
         },
         {
-          "analysis": "The interviewer's worry about their situation may be accompanied by a sense of surprise that they have lost their spark, but this emotion is not strongly evident.",
-          "dim": "surprise",
-          "score": 5
+          "analysis": "The interviewer is fearful that their spark is gone for good, indicating anxiety about their future.",
+          "dim": "fear",
+          "score": 8
         },
         {
-          "analysis": "The statement implies a sense of acceptance of their current situation, but not a strong sense of acceptance or resignation.",
-          "dim": "acceptance",
-          "score": 6
+          "analysis": "The overall tone is somber and worried, indicating a lack of joy or happiness.",
+          "dim": "joy",
+          "score": 2
+        },
+        {
+          "analysis": "The interviewer is expressing sadness and concern about losing their spark, indicating a sense of loss and grief.",
+          "dim": "sadness",
+          "score": 9
+        },
+        {
+          "analysis": "The statement is a reflection on a personal state, without any surprising or unexpected events.",
+          "dim": "surprise",
+          "score": 1
         }
       ],
       "emotion_scores": {
-        "acceptance": 6,
-        "anger": 2,
+        "acceptance": 2,
+        "anger": 1,
         "anticipation": 3,
-        "disgust": 4,
-        "fear": 7,
-        "joy": 1,
-        "sadness": 8,
-        "surprise": 5
-      },
-      "embedding": [
-        6,
-        2,
-        3,
-        4,
-        7,
-        1,
-        8,
-        5
-      ]
-    }
-  },
-  {
-    "text": "I sometimes think people wouldn\u2019t notice if I disappeared for a while.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "That sounds like deep loneliness talking. You matter more than your thoughts tell you. Who in your life has made you feel seen before?",
-      "exchange_number": 19
-    },
-    "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:06:06.929272",
-      "emotion_logs": [
-        {
-          "analysis": "The speaker expresses a feeling of being unnoticed or unimportant, which is a negative emotion related to low self-esteem or feeling disconnected from others.",
-          "dim": "sadness",
-          "score": 8
-        },
-        {
-          "analysis": "There is a hint of frustration or hopelessness in the statement, which can be associated with anger or resentment towards one's circumstances or the people around them.",
-          "dim": "anger",
-          "score": 4
-        },
-        {
-          "analysis": "The speaker's statement does not convey a sense of fear or anxiety about disappearing, but rather a sense of detachment or isolation.",
-          "dim": "fear",
-          "score": 2
-        },
-        {
-          "analysis": "The tone of the statement is not joyful or positive, and the speaker does not seem to be looking forward to anything.",
-          "dim": "joy",
-          "score": 1
-        },
-        {
-          "analysis": "The speaker's statement does not express surprise or astonishment, but rather a sense of resignation or hopelessness.",
-          "dim": "surprise",
-          "score": 1
-        },
-        {
-          "analysis": "The speaker's feeling of being unnoticed or unimportant can be related to a sense of rejection or low self-worth, which can be associated with disgust towards oneself.",
-          "dim": "disgust",
-          "score": 3
-        },
-        {
-          "analysis": "The speaker does not seem to be looking forward to anything or anticipating a positive outcome, but rather expressing a sense of despair or hopelessness.",
-          "dim": "anticipation",
-          "score": 2
-        },
-        {
-          "analysis": "The speaker's statement implies a sense of acceptance or resignation towards their circumstances, rather than a sense of acceptance or approval of themselves or their situation.",
-          "dim": "acceptance",
-          "score": 6
-        }
-      ],
-      "emotion_scores": {
-        "acceptance": 6,
-        "anger": 4,
-        "anticipation": 2,
-        "disgust": 3,
-        "fear": 2,
-        "joy": 1,
-        "sadness": 8,
+        "disgust": 1,
+        "fear": 8,
+        "joy": 2,
+        "sadness": 9,
         "surprise": 1
       },
       "embedding": [
-        6,
-        4,
-        2,
-        3,
         2,
         1,
+        3,
+        1,
         8,
+        2,
+        9,
         1
       ]
     }
   },
   {
-    "text": "My sister, actually. She checks on me, even when I push her away.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "That\u2019s beautiful. Maybe let her know how much that means \u2014 connection grows when we express gratitude, even in small words.",
-      "exchange_number": 20
-    },
+    "id": "7214ecbf-a81d-49e3-b7fa-c3322ee13e07",
+    "text": "I sometimes think people wouldn\u2019t notice if I disappeared for a while.",
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "That sounds like deep loneliness talking. You matter more than your thoughts tell you. Who in your life has made you feel seen before?",
+    "exchange_number": 19,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:06:18.222190",
+      "embed_timestamp": "2026-01-10T17:33:48.885072",
+      "emotion_logs": [
+        {
+          "analysis": "The speaker's statement implies a sense of feeling unnoticed or unimportant, which is a negative emotion related to low self-esteem or feeling disconnected from others.",
+          "dim": "acceptance",
+          "score": 2
+        },
+        {
+          "analysis": "There is no direct expression of anger in the statement, but the feeling of being unnoticed could be rooted in past experiences that might have triggered anger.",
+          "dim": "anger",
+          "score": 3
+        },
+        {
+          "analysis": "The statement does not convey any sense of looking forward to something or expecting a positive outcome, thus anticipation is low.",
+          "dim": "anticipation",
+          "score": 1
+        },
+        {
+          "analysis": "The sentiment does not express disgust towards anything or anyone, so the score for disgust is minimal.",
+          "dim": "disgust",
+          "score": 1
+        },
+        {
+          "analysis": "The fear of being unnoticed or unimportant could evoke a sense of fear or anxiety about one's place or value in relationships or society.",
+          "dim": "fear",
+          "score": 6
+        },
+        {
+          "analysis": "The overall tone of the statement is melancholic and does not express happiness or joy.",
+          "dim": "joy",
+          "score": 1
+        },
+        {
+          "analysis": "The feeling of possibly being unnoticed and unimportant leans towards sadness, as it reflects a negative self-perception or feeling undervalued.",
+          "dim": "sadness",
+          "score": 8
+        },
+        {
+          "analysis": "The statement is more of a reflection of a persistent feeling rather than an expression of surprise at a particular event or realization.",
+          "dim": "surprise",
+          "score": 2
+        }
+      ],
+      "emotion_scores": {
+        "acceptance": 2,
+        "anger": 3,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "embedding": [
+        2,
+        3,
+        1,
+        1,
+        6,
+        1,
+        8,
+        2
+      ]
+    }
+  },
+  {
+    "id": "3f053dad-e6e9-4db2-8648-ad98015c6a0c",
+    "text": "My sister, actually. She checks on me, even when I push her away.",
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "That\u2019s beautiful. Maybe let her know how much that means \u2014 connection grows when we express gratitude, even in small words.",
+    "exchange_number": 20,
+    "emotions_metadata": {
+      "embed_timestamp": "2026-01-10T17:34:00.054552",
       "emotion_logs": [
         {
           "analysis": "The speaker's statement implies a sense of gratitude and appreciation towards their sister, which is a positive emotion related to joy.",
@@ -1402,37 +1382,37 @@
           "score": 8
         },
         {
-          "analysis": "The act of pushing someone away can be associated with feelings of frustration or irritation, which are related to anger.",
+          "analysis": "The fact that the speaker pushes their sister away suggests a sense of frustration or irritation, which is related to anger.",
           "dim": "anger",
           "score": 4
         },
         {
-          "analysis": "The sister's persistent checking on the speaker despite being pushed away suggests a strong bond and acceptance.",
+          "analysis": "The speaker's sister checking in on them despite being pushed away implies a sense of acceptance and understanding from the sister, which is related to acceptance.",
           "dim": "acceptance",
           "score": 9
         },
         {
-          "analysis": "There is no apparent anticipation or expectation in the statement, so the score for anticipation is low.",
+          "analysis": "There is no apparent anticipation or expectation in the speaker's statement, so the score for anticipation is low.",
           "dim": "anticipation",
           "score": 2
         },
         {
-          "analysis": "The context does not imply any disgust towards the sister or the situation.",
+          "analysis": "The speaker's statement does not express any disgust or distaste, so the score for disgust is low.",
           "dim": "disgust",
           "score": 1
         },
         {
-          "analysis": "The statement does not convey fear, as the speaker seems to appreciate their sister's actions.",
+          "analysis": "The speaker's statement does not express any fear or anxiety, so the score for fear is low.",
           "dim": "fear",
           "score": 1
         },
         {
-          "analysis": "The speaker's pushing away could be a result of sadness or emotional struggle, but the overall tone is more positive due to the sister's care.",
+          "analysis": "The speaker's statement implies a sense of sadness or vulnerability, as they mention pushing their sister away, which is related to sadness.",
           "dim": "sadness",
-          "score": 3
+          "score": 6
         },
         {
-          "analysis": "The situation described is not surprising or unexpected, given the context of sibling relationships.",
+          "analysis": "The speaker's statement does not express any surprise or astonishment, so the score for surprise is low.",
           "dim": "surprise",
           "score": 2
         }
@@ -1444,7 +1424,7 @@
         "disgust": 1,
         "fear": 1,
         "joy": 8,
-        "sadness": 3,
+        "sadness": 6,
         "surprise": 2
       },
       "embedding": [
@@ -1454,20 +1434,19 @@
         1,
         1,
         8,
-        3,
+        6,
         2
       ]
     }
   },
   {
+    "id": "fb18a5bf-6ee6-4338-bc1c-be6472efec0b",
     "text": "I\u2019ll try. I just don\u2019t want to be a burden.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "You\u2019re not a burden. You\u2019re human, and needing care doesn\u2019t make you weak \u2014 it makes you real.",
-      "exchange_number": 21
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "You\u2019re not a burden. You\u2019re human, and needing care doesn\u2019t make you weak \u2014 it makes you real.",
+    "exchange_number": 21,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:06:29.628888",
+      "embed_timestamp": "2026-01-10T17:34:11.730335",
       "emotion_logs": [
         {
           "analysis": "The speaker is expressing a concern about being a burden, indicating a sense of consideration for others, but also a lack of confidence in their own worth, which is related to feelings of sadness.",
@@ -1480,7 +1459,7 @@
           "score": 6
         },
         {
-          "analysis": "There is no apparent anger in the speaker's statement, as they are expressing a concern rather than frustration or hostility.",
+          "analysis": "There is no apparent anger in the speaker's statement, as they are expressing a concern rather than a frustration or hostility.",
           "dim": "anger",
           "score": 1
         },
@@ -1490,7 +1469,7 @@
           "score": 2
         },
         {
-          "analysis": "The speaker's concern about being a burden does not imply any disgust, as they are focused on their own feelings rather than expressing distaste for something.",
+          "analysis": "The speaker's concern about being a burden does not imply any disgust, as they are focused on their own feelings rather than expressing revulsion towards something.",
           "dim": "disgust",
           "score": 1
         },
@@ -1500,12 +1479,12 @@
           "score": 7
         },
         {
-          "analysis": "The speaker's tone is not joyful, as they are expressing a concern and a lack of confidence.",
+          "analysis": "The speaker's tone is not joyful, as they are expressing a concern and a lack of confidence, which suggests a somber mood.",
           "dim": "joy",
-          "score": 1
+          "score": 2
         },
         {
-          "analysis": "The speaker's statement does not express any surprise, as they seem to be reflecting on their own feelings and concerns.",
+          "analysis": "The speaker's statement does not express any surprise, as they are simply stating their concerns and feelings.",
           "dim": "surprise",
           "score": 1
         }
@@ -1516,7 +1495,7 @@
         "anticipation": 2,
         "disgust": 1,
         "fear": 7,
-        "joy": 1,
+        "joy": 2,
         "sadness": 8,
         "surprise": 1
       },
@@ -1526,21 +1505,20 @@
         2,
         1,
         7,
-        1,
+        2,
         8,
         1
       ]
     }
   },
   {
+    "id": "8db776ef-b361-4f45-bc5c-064316c91820",
     "text": "Sometimes I scroll social media for hours to distract myself.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "That\u2019s a coping mechanism, not laziness. But digital rest can help \u2014 replace 10 minutes of scrolling with something soothing, like music or journaling.",
-      "exchange_number": 22
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "That\u2019s a coping mechanism, not laziness. But digital rest can help \u2014 replace 10 minutes of scrolling with something soothing, like music or journaling.",
+    "exchange_number": 22,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:06:40.631234",
+      "embed_timestamp": "2026-01-10T17:34:23.400594",
       "emotion_logs": [
         {
           "analysis": "The user is using social media as a distraction, indicating a possible avoidance of negative emotions",
@@ -1548,47 +1526,47 @@
           "score": 6
         },
         {
-          "analysis": "The user is engaging in a mindless activity, which may imply a lack of fulfillment or purpose",
+          "analysis": "The user is engaging in a habitual behavior, which may indicate a lack of fulfillment or purpose",
           "dim": "acceptance",
           "score": 4
         },
         {
-          "analysis": "There is no apparent excitement or happiness in the statement, suggesting a neutral emotional state",
+          "analysis": "There is no apparent excitement or pleasure in the user's statement, suggesting a neutral emotional state",
           "dim": "joy",
           "score": 2
         },
         {
-          "analysis": "The user is not expressing any disgust towards social media or the activity itself",
+          "analysis": "The user's behavior does not express any intense negative emotions like anger or disgust",
+          "dim": "anger",
+          "score": 1
+        },
+        {
+          "analysis": "The user's behavior does not express any intense negative emotions like anger or disgust",
           "dim": "disgust",
           "score": 1
         },
         {
-          "analysis": "There is no apparent fear or anxiety in the statement",
+          "analysis": "The user may be using social media to alleviate anxiety or apprehension, but it's not explicitly stated",
           "dim": "fear",
-          "score": 1
-        },
-        {
-          "analysis": "The user is not expressing surprise or astonishment at their behavior",
-          "dim": "surprise",
-          "score": 1
-        },
-        {
-          "analysis": "The user's behavior may be driven by anticipation of avoiding negative emotions, but it's not explicitly stated",
-          "dim": "anticipation",
           "score": 3
         },
         {
-          "analysis": "There is no apparent anger or frustration in the statement",
-          "dim": "anger",
+          "analysis": "The user's behavior implies a sense of anticipation for something more interesting or engaging",
+          "dim": "anticipation",
+          "score": 5
+        },
+        {
+          "analysis": "The user's statement does not convey a sense of surprise or astonishment",
+          "dim": "surprise",
           "score": 1
         }
       ],
       "emotion_scores": {
         "acceptance": 4,
         "anger": 1,
-        "anticipation": 3,
+        "anticipation": 5,
         "disgust": 1,
-        "fear": 1,
+        "fear": 3,
         "joy": 2,
         "sadness": 6,
         "surprise": 1
@@ -1596,9 +1574,9 @@
       "embedding": [
         4,
         1,
+        5,
+        1,
         3,
-        1,
-        1,
         2,
         6,
         1
@@ -1606,14 +1584,13 @@
     }
   },
   {
+    "id": "d11e60a3-e5b0-4bf0-a066-43709b11ec78",
     "text": "I\u2019ve been listening to calm piano tracks; they help a bit.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "That\u2019s a great start. Music can regulate mood \u2014 especially if it mirrors your current feeling before guiding you to calmer tones.",
-      "exchange_number": 23
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "That\u2019s a great start. Music can regulate mood \u2014 especially if it mirrors your current feeling before guiding you to calmer tones.",
+    "exchange_number": 23,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:06:51.709329",
+      "embed_timestamp": "2026-01-10T17:34:34.664204",
       "emotion_logs": [
         {
           "analysis": "The user mentions that calm piano tracks help them, indicating a positive emotional state",
@@ -1626,9 +1603,9 @@
           "score": 1
         },
         {
-          "analysis": "The user is currently listening to music, but there is no mention of looking forward to something",
+          "analysis": "The user is looking for ways to improve their mood, showing a sense of expectation for a positive outcome",
           "dim": "anticipation",
-          "score": 2
+          "score": 6
         },
         {
           "analysis": "The statement does not express distaste or revulsion towards anything",
@@ -1636,22 +1613,22 @@
           "score": 1
         },
         {
-          "analysis": "The user is seeking help through music, which may imply some level of apprehension, but it is not explicitly stated",
+          "analysis": "There is no apparent fear or anxiety in the user's statement",
           "dim": "fear",
+          "score": 2
+        },
+        {
+          "analysis": "The user finds calm piano tracks helpful, which suggests a sense of happiness or relief",
+          "dim": "joy",
+          "score": 7
+        },
+        {
+          "analysis": "Although the user is seeking help, the tone is not melancholic or sorrowful",
+          "dim": "sadness",
           "score": 3
         },
         {
-          "analysis": "The user finds the piano tracks helpful, which suggests a positive emotional response",
-          "dim": "joy",
-          "score": 6
-        },
-        {
-          "analysis": "The user may be experiencing some sadness or difficulty, as they are seeking help through music",
-          "dim": "sadness",
-          "score": 5
-        },
-        {
-          "analysis": "There is no indication of astonishment or amazement in the statement",
+          "analysis": "The statement is a straightforward expression of a personal experience, without any surprising or astonishing elements",
           "dim": "surprise",
           "score": 2
         }
@@ -1659,34 +1636,33 @@
       "emotion_scores": {
         "acceptance": 8,
         "anger": 1,
-        "anticipation": 2,
+        "anticipation": 6,
         "disgust": 1,
-        "fear": 3,
-        "joy": 6,
-        "sadness": 5,
+        "fear": 2,
+        "joy": 7,
+        "sadness": 3,
         "surprise": 2
       },
       "embedding": [
         8,
         1,
-        2,
-        1,
-        3,
         6,
-        5,
+        1,
+        2,
+        7,
+        3,
         2
       ]
     }
   },
   {
+    "id": "488aa539-8917-4a44-ab37-bc65a11fd511",
     "text": "I\u2019m still scared about the future though. Everything feels uncertain.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "Fear of the unknown is universal. When the future feels heavy, grounding in the present \u2014 even by naming one thing you control today \u2014 can ease that tension.",
-      "exchange_number": 24
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "Fear of the unknown is universal. When the future feels heavy, grounding in the present \u2014 even by naming one thing you control today \u2014 can ease that tension.",
+    "exchange_number": 24,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:07:02.900532",
+      "embed_timestamp": "2026-01-10T17:34:45.729014",
       "emotion_logs": [
         {
           "analysis": "The interviewer expresses uncertainty about the future, indicating a sense of apprehension and dread.",
@@ -1695,71 +1671,75 @@
         },
         {
           "analysis": "The use of the word 'scared' explicitly conveys a negative emotional state, contributing to the fear dimension.",
-          "dim": "sadness",
-          "score": 6
+          "dim": "fear",
+          "score": 8
         },
         {
-          "analysis": "The overall tone is somber and lacks confidence, suggesting a low level of acceptance.",
-          "dim": "acceptance",
-          "score": 3
-        },
-        {
-          "analysis": "There is no apparent anger or frustration in the statement.",
-          "dim": "anger",
-          "score": 1
-        },
-        {
-          "analysis": "The interviewer does not seem to be looking forward to anything, resulting in a low anticipation score.",
-          "dim": "anticipation",
+          "analysis": "The overall tone is somber and anxious, with no hints of positive emotions, resulting in low scores for joy and anticipation.",
+          "dim": "joy",
           "score": 2
         },
         {
-          "analysis": "The statement does not express disgust towards anything.",
+          "analysis": "The lack of enthusiasm or eagerness suggests a low level of anticipation.",
+          "dim": "anticipation",
+          "score": 3
+        },
+        {
+          "analysis": "There is no apparent disgust or revulsion in the statement.",
           "dim": "disgust",
           "score": 1
         },
         {
-          "analysis": "The tone is not joyful or positive, resulting in a low joy score.",
-          "dim": "joy",
-          "score": 1
+          "analysis": "The tone is not surprising or astonishing, resulting in a low surprise score.",
+          "dim": "surprise",
+          "score": 2
         },
         {
-          "analysis": "The interviewer's uncertainty might be slightly surprising, given the context, but not entirely unexpected.",
-          "dim": "surprise",
+          "analysis": "The expression of fear and uncertainty implies a sense of sadness and despair.",
+          "dim": "sadness",
+          "score": 6
+        },
+        {
+          "analysis": "The interviewer does not seem to be accepting of the uncertainty, as they express their fear and concern.",
+          "dim": "acceptance",
           "score": 4
+        },
+        {
+          "analysis": "There is no apparent anger or frustration in the statement, only fear and uncertainty.",
+          "dim": "anger",
+          "score": 2
         }
       ],
       "emotion_scores": {
-        "acceptance": 3,
-        "anger": 1,
-        "anticipation": 2,
+        "acceptance": 4,
+        "anger": 2,
+        "anticipation": 3,
         "disgust": 1,
         "fear": 8,
-        "joy": 1,
+        "joy": 2,
         "sadness": 6,
-        "surprise": 4
+        "surprise": 2
       },
       "embedding": [
+        4,
+        2,
         3,
         1,
-        2,
-        1,
         8,
-        1,
+        2,
         6,
-        4
+        2
       ]
     }
   },
   {
+    "id": "923c5acf-dd2a-4f70-bcde-9becfc1e5624",
     "text": "Thanks\u2026 it helps to talk. I actually feel a bit lighter now.",
-    "timestamp": "2026-01-09T01:02:42.690460",
-    "metadata": {
-      "ai_response": "I\u2019m really glad to hear that. Remember, healing doesn\u2019t happen all at once \u2014 it\u2019s built from these small, honest conversations with yourself and others.",
-      "exchange_number": 25
-    },
+    "timestamp": "2026-01-10T17:30:22.909096",
+    "ai_response": "I\u2019m really glad to hear that. Remember, healing doesn\u2019t happen all at once \u2014 it\u2019s built from these small, honest conversations with yourself and others.",
+    "exchange_number": 25,
     "emotions_metadata": {
-      "embed_timestamp": "2026-01-09T01:07:13.895437",
+      "embed_timestamp": "2026-01-10T17:34:56.983406",
       "emotion_logs": [
         {
           "analysis": "The speaker expresses relief and a sense of unburdening, indicating a positive emotional shift.",
@@ -1772,32 +1752,32 @@
           "score": 1
         },
         {
-          "analysis": "There is no apparent expectation or excitement for a future event, indicating low anticipation.",
+          "analysis": "There is no indication of looking forward to something specific, so anticipation is low.",
           "dim": "anticipation",
           "score": 2
         },
         {
-          "analysis": "The speaker's words do not convey distaste or revulsion, suggesting no disgust.",
+          "analysis": "The context does not suggest any feeling of distaste or revulsion.",
           "dim": "disgust",
           "score": 1
         },
         {
-          "analysis": "The speaker's statement does not express anxiety or apprehension, indicating low fear.",
+          "analysis": "The speaker's statement does not convey any sense of apprehension or anxiety.",
           "dim": "fear",
-          "score": 2
+          "score": 1
         },
         {
-          "analysis": "The speaker mentions feeling 'a bit lighter,' which implies a sense of happiness or relief, indicating joy.",
+          "analysis": "The speaker feels 'a bit lighter,' which implies an increase in happiness or joy.",
           "dim": "joy",
           "score": 7
         },
         {
-          "analysis": "Although the speaker has been talking about their feelings, the current statement does not convey sorrow or melancholy, suggesting low sadness.",
+          "analysis": "Although the speaker feels lighter, the initial statement 'Thanks\u2026 it helps to talk' implies they were previously troubled, suggesting some residual sadness.",
           "dim": "sadness",
-          "score": 3
+          "score": 4
         },
         {
-          "analysis": "The speaker's statement is a straightforward expression of relief, with no unexpected or astonishing elements, indicating low surprise.",
+          "analysis": "There is no element of astonishment or unexpectedness in the speaker's statement.",
           "dim": "surprise",
           "score": 2
         }
@@ -1807,9 +1787,9 @@
         "anger": 1,
         "anticipation": 2,
         "disgust": 1,
-        "fear": 2,
+        "fear": 1,
         "joy": 7,
-        "sadness": 3,
+        "sadness": 4,
         "surprise": 2
       },
       "embedding": [
@@ -1817,9 +1797,9 @@
         1,
         2,
         1,
-        2,
+        1,
         7,
-        3,
+        4,
         2
       ]
     }
