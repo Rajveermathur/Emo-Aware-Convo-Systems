@@ -2,7 +2,7 @@
 /venv
 
 # Chroma Stores, these are quite large, will upload the final one
-/chroma_store
+# /chroma_store
 
 # Secrets and Keys
 .env
