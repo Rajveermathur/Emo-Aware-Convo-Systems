@@ -7,4 +7,5 @@
 # Secrets and Keys
 .env
 
+# Logs for debugging
 /logs
