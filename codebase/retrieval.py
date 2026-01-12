@@ -1,5 +1,4 @@
 # Dependency imports
-from unittest import result
 import chromadb
 from sentence_transformers import SentenceTransformer
 import numpy as np
@@ -42,6 +41,7 @@ data = collection.query(
 
 output = {
     "query": query_text,
+    "type": "semantic_retrieval",
     "retrieval_timestamp": datetime.now().isoformat(),
     "results": []
 }
@@ -56,5 +56,13 @@ for i, doc in enumerate(data["documents"][0]):
         "ai_response": meta["ai_response"],
         "timestamp": meta["timestamp"]
     })
-
+    
 print(json.dumps(output, indent=2))
+
+filename = f"retrieval_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+file_path = os.path.join("logs", filename)
+
+with open(file_path, "w", encoding="utf-8") as f:
+    json.dump(output, f, indent=2, ensure_ascii=False)
+
+print(f"Saved results to {file_path}")

@@ -6,3 +6,5 @@
 
 # Secrets and Keys
 .env
+
+/logs
