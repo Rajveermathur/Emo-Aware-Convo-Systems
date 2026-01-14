@@ -71,7 +71,7 @@ def emotion_vectors_section(client, chat_data):
     # print(emotion_embeddings)
 
     # # Normalize embeddings
-    embeddings = l2_normalize(np.array(emotion_embeddings))
+    embeddings = np.array(emotion_embeddings)
 
     # Add documents to collection
     collection.add(

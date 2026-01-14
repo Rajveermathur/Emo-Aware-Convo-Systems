@@ -56,9 +56,8 @@ def retrieve_emotion_vectors(client, database_name, query_text: str):
     print("✅ Connected to persistent Chroma collection.")
 
     result = emotional_embedder(query_text)
-    intermediate_embedding = np.array(result["embedding"]).reshape(1, -1) 
 
-    query_embedding = l2_normalize(intermediate_embedding)
+    query_embedding = np.array(result["embedding"]).reshape(1, -1)
 
     data = collection.query(
         query_embeddings=query_embedding.tolist(),
@@ -98,7 +97,7 @@ def logs_save(type: str = "retrieval", output: dict = None):
     print(f"Saved results to {file_path}")
 
 if __name__ == "__main__":
-    # embedding_model = SentenceTransformer("all-mpnet-base-v2")
+    embedding_model = SentenceTransformer("all-mpnet-base-v2")
 
     # Directory to persist Chroma database
     persist_dir = "./chroma_store"
@@ -109,9 +108,9 @@ if __name__ == "__main__":
 
     query_text = "I am sleepless"
 
-    # semantic_output = retrieve_semantic_vectors(client, "semantic_vectors", embedding_model, query_text)
-    # print(semantic_output)
-    # logs_save(type="semantic_retrieval", output=semantic_output)
+    semantic_output = retrieve_semantic_vectors(client, "semantic_vectors", embedding_model, query_text)
+    print(semantic_output)
+    logs_save(type="semantic_retrieval", output=semantic_output)
 
     emotion_output = retrieve_emotion_vectors(client, "emotions_vectors", query_text)
     print(emotion_output)
