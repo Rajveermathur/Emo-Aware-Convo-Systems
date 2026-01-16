@@ -12,20 +12,29 @@ def l2_normalize(vectors: np.ndarray) -> np.ndarray:
     norms = np.linalg.norm(vectors, axis=1, keepdims=True)
     return vectors / norms
 
-def retrieve_semantic_vectors(client, database_name, embedding_model, query_text: str):
+def retrieve_semantic_vectors(client, database_name, embedding_model, query_text: str, top_k: int = 5, filter_ids: set = None):
 # Create or get collection
     collection = client.get_or_create_collection(database_name, metadata={"hnsw:space": "cosine"})
     print("✅ Connected to persistent Chroma collection.")
-
+    
     query_embedding = embedding_model.encode(
         [query_text], convert_to_numpy=True
     )
 
     query_embedding = l2_normalize(query_embedding)
 
+    where_filter = None
+    if filter_ids:
+        where_filter = {
+            "$and": [
+                {"id": {"$in": list(filter_ids)}}
+            ]
+        }
+
     data = collection.query(
         query_embeddings=query_embedding.tolist(),
-        n_results=5,
+        n_results=top_k,
+        where=where_filter,
         include=["documents", "metadatas", "distances"]
     )
 
@@ -50,7 +59,7 @@ def retrieve_semantic_vectors(client, database_name, embedding_model, query_text
     return(output)
 
 # Function to retrieve emotion vectors
-def retrieve_emotion_vectors(client, database_name, query_text: str):
+def retrieve_emotion_vectors(client, database_name, query_text: str, top_k: int = 5):
     # Create or get collection
     collection = client.get_or_create_collection(database_name, metadata={"hnsw:space": "l2"})
     print("✅ Connected to persistent Chroma collection.")
@@ -61,7 +70,7 @@ def retrieve_emotion_vectors(client, database_name, query_text: str):
 
     data = collection.query(
         query_embeddings=query_embedding.tolist(),
-        n_results=5,
+        n_results=top_k,
         include=["documents", "metadatas", "distances"]
     )
     print(data)
@@ -112,6 +121,6 @@ if __name__ == "__main__":
     print(semantic_output)
     logs_save(type="semantic_retrieval", output=semantic_output)
 
-    emotion_output = retrieve_emotion_vectors(client, "emotions_vectors", query_text)
-    print(emotion_output)
-    logs_save(type="emotion_retrieval", output=emotion_output)
+    # emotion_output = retrieve_emotion_vectors(client, "emotions_vectors", query_text)
+    # print(emotion_output)
+    # logs_save(type="emotion_retrieval", output=emotion_output)
