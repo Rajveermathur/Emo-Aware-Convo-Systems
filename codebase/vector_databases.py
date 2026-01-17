@@ -10,9 +10,9 @@ def l2_normalize(vectors: np.ndarray) -> np.ndarray:
     norms = np.linalg.norm(vectors, axis=1, keepdims=True)
     return vectors / norms
 
-def semantic_vectors_section(client, chat_data):
+def semantic_vectors_section(client, chat_data, db_name):
     # Create or get collection
-    collection = client.get_or_create_collection("semantic_vectors", metadata={"hnsw:space": "cosine"})
+    collection = client.get_or_create_collection(db_name, metadata={"hnsw:space": "cosine"})
     print("✅ Connected to persistent Semantic Vectors collection.")
 
     # Prepare documents and IDs
@@ -24,6 +24,7 @@ def semantic_vectors_section(client, chat_data):
         docs.append(chunk["text"])
         ids.append(chunk["id"])
         structured_log = {
+            "doc_id": chunk["id"],
             "timestamp": chunk["timestamp"],
             "ai_response": chunk["ai_response"],
             "emotion_analysis": json.dumps(chunk["emotions_metadata"].get("emotion_scores", {})),
@@ -45,9 +46,10 @@ def semantic_vectors_section(client, chat_data):
     print(f"✅ Added {len(docs)} documents to the Chroma Semantic Vectors collection.")
 
 # -------------------------------------------------------------------------------------------------
-def emotion_vectors_section(client, chat_data):
+
+def emotion_vectors_section(client, chat_data, db_name):
     # Create or get collection
-    collection = client.get_or_create_collection("emotions_vectors", metadata={"hnsw:space": "l2"})
+    collection = client.get_or_create_collection(db_name, metadata={"hnsw:space": "l2"})
     print("✅ Connected to persistent Emotions Vectors collection.")
 
     # Prepare documents and IDs
@@ -62,6 +64,7 @@ def emotion_vectors_section(client, chat_data):
         docs.append(chunk["text"])
         ids.append(chunk["id"])
         structured_log = {
+            "doc_id": chunk["id"],
             "timestamp": chunk["timestamp"],
             "ai_response": chunk["ai_response"],
             "emotion_analysis": json.dumps(chunk["emotions_metadata"].get("emotion_scores", {})),
@@ -100,7 +103,7 @@ if __name__ == "__main__":
     print(f"Loaded {len(chat_data)} chat chunks.")
 
     # Process Semantic Vectors
-    semantic_vectors_section(client, chat_data)
+    semantic_vectors_section(client, chat_data, "semantic_vectors")
 
     # Process Emotion Vectors
-    emotion_vectors_section(client, chat_data)
+    emotion_vectors_section(client, chat_data, "emotions_vectors")

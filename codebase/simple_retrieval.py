@@ -26,10 +26,9 @@ def retrieve_semantic_vectors(client, database_name, embedding_model, query_text
     where_filter = None
     if filter_ids:
         where_filter = {
-            "$and": [
-                {"id": {"$in": list(filter_ids)}}
-            ]
+            "doc_id": {"$in": list(filter_ids)}
         }
+        print("Applying filter IDs:", where_filter)
 
     data = collection.query(
         query_embeddings=query_embedding.tolist(),
@@ -121,6 +120,6 @@ if __name__ == "__main__":
     print(semantic_output)
     logs_save(type="semantic_retrieval", output=semantic_output)
 
-    # emotion_output = retrieve_emotion_vectors(client, "emotions_vectors", query_text)
-    # print(emotion_output)
-    # logs_save(type="emotion_retrieval", output=emotion_output)
+    emotion_output = retrieve_emotion_vectors(client, "emotions_vectors", query_text)
+    print(emotion_output)
+    logs_save(type="emotion_retrieval", output=emotion_output)

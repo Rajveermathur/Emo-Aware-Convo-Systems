@@ -1,3 +1,6 @@
+import os
+import chromadb
+from sentence_transformers import SentenceTransformer
 from combinational_retriever import l2_to_similarity, cosine_to_similarity
 from simple_retrieval import retrieve_semantic_vectors, retrieve_emotion_vectors, logs_save
 
@@ -14,9 +17,8 @@ def emotion_first_retriever(
     semantic_db_name,
     embedding_model,
     query_text,
-    emotion_top_k=20,
+    emotion_top_k=10,
     final_top_k=5,
-    emotion_threshold=0.4
 ):
     emotion_output = retrieve_emotion_vectors(
         client,
@@ -30,16 +32,14 @@ def emotion_first_retriever(
         r["id"]: l2_to_similarity(r["distance"])
         for r in emotion_output["results"]
     }
+    print("Emotion Scores:", emotion_scores)
 
     # Emotion gate
     gated_ids = {
         doc_id
         for doc_id, sim in emotion_scores.items()
-        if sim >= emotion_threshold
     }
-
-    if not gated_ids:
-        return {"warning": "No emotionally aligned results"}
+    print("Gated IDs:", gated_ids)
 
     # Semantic retrieval
     semantic_output = retrieve_semantic_vectors(
@@ -49,21 +49,59 @@ def emotion_first_retriever(
         query_text,
         filter_ids=gated_ids
     )
+    print("Semantic Output:", semantic_output)
+    
+    # --- Build structured scores ---
+    scores = {}
+    ranking_signal = {}
 
-    # Final ranking purely semantic
-    ranked = rank_dict(
-        {
-            r["id"]: 1.0 - r["distance"]
-            for r in semantic_output["results"]
-        },
-        final_top_k
-    )
+    for r in semantic_output["results"]:
+        doc_id = r["id"]
+
+        semantic_sim = cosine_to_similarity(r["distance"])
+        emotional_sim = emotion_scores.get(doc_id)  # fallback handled here
+
+        scores[doc_id] = {
+            "semantic_similarity": semantic_sim,
+            "emotional_similarity": emotional_sim,
+            "document": r["document"],
+            "ai_response": r.get("ai_response"),
+            "last_asked": r.get("timestamp"),
+        }
+
+        # Ranking is purely semantic (as you specified)
+        ranking_signal[doc_id] = semantic_sim
+
+    # --- Rank ---
+    ranked_ids = rank_dict(ranking_signal, final_top_k)
+
+    # Preserve order and return full objects
+    final_results = [
+        scores[doc_id]
+        for doc_id, _ in ranked_ids
+    ]
 
     return {
         "type": "emotion_first_rerank",
         "query": query_text,
-        "results": ranked
-    }
+        "retrieval_timestamp": emotion_output["retrieval_timestamp"],
+        "results": final_results,
+    }  
+
+if __name__ == "__main__":
+    embedding_model = SentenceTransformer("all-mpnet-base-v2")
+
+    # Directory to persist Chroma database
+    persist_dir = "./chroma_store"
+    os.makedirs(persist_dir, exist_ok=True)
+
+    # Persistent client
+    client = chromadb.PersistentClient(path=persist_dir)
+
+    query_text = "I am not able to sleep properly at night"
+
+    output = emotion_first_retriever(client, "emotions_vectors", "semantic_vectors", embedding_model, query_text)
+    logs_save("emotion_first_retriever", output)
 
 # def semantic_first_retriever(
 #     client,
