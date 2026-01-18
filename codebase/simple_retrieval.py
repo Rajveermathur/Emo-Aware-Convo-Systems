@@ -58,7 +58,7 @@ def retrieve_semantic_vectors(client, database_name, embedding_model, query_text
     return(output)
 
 # Function to retrieve emotion vectors
-def retrieve_emotion_vectors(client, database_name, query_text: str, top_k: int = 5):
+def retrieve_emotion_vectors(client, database_name, query_text: str, top_k: int = 5, filter_ids: set = None):
     # Create or get collection
     collection = client.get_or_create_collection(database_name, metadata={"hnsw:space": "l2"})
     print("✅ Connected to persistent Chroma collection.")
@@ -67,9 +67,17 @@ def retrieve_emotion_vectors(client, database_name, query_text: str, top_k: int 
 
     query_embedding = np.array(result["embedding"]).reshape(1, -1)
 
+    where_filter = None
+    if filter_ids:
+        where_filter = {
+            "doc_id": {"$in": list(filter_ids)}
+        }
+        print("Applying filter IDs:", where_filter)
+        
     data = collection.query(
         query_embeddings=query_embedding.tolist(),
         n_results=top_k,
+        where=where_filter,
         include=["documents", "metadatas", "distances"]
     )
     print(data)
