@@ -6,7 +6,6 @@ from datetime import datetime
 import os
 from openai import OpenAI
 from dotenv import load_dotenv
-import json
 import ast
 from datetime import datetime
 import time
@@ -64,6 +63,7 @@ def emotional_embedder(user_query):
     stream=False,
     stop=None,
     )
+    
     # Parse and structure LLM output
     try:
         raw_output = chat_completion.choices[0].message.content
