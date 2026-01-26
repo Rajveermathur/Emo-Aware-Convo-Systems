@@ -1,0 +1,92 @@
+{
+  "query": "I feel like I’m constantly failing no matter how hard I try.",
+  "type": "semantic_retrieval",
+  "retrieval_timestamp": "2026-01-27T00:55:38.066610",
+  "results": [
+    {
+      "id": "7b1d2e8f-ba1c-432b-90bf-49750265b960",
+      "distance": 0.3540225625038147,
+      "document": "Sometimes I feel like I’m failing at self-care.",
+      "emotions": {
+        "acceptance": 4,
+        "anger": 1,
+        "anticipation": 3,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "ai_response": "Self-care isn’t a test you pass or fail. It’s a process of noticing what you need — sometimes that’s rest, sometimes it’s asking for help.",
+      "timestamp": "2026-01-10T17:30:22.909096"
+    },
+    {
+      "id": "65c13874-666f-4955-9aad-bf063a43397a",
+      "distance": 0.407573401927948,
+      "document": "Then why does it feel like I’m failing at adulthood?",
+      "emotions": {
+        "acceptance": 3,
+        "anger": 2,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 7,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "ai_response": "Because many adult environments reward chronic self-sacrifice and mislabel burnout as inadequacy.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "26956611-a6ea-4585-8805-3798ef10f13a",
+      "distance": 0.4961862564086914,
+      "document": "Sometimes I wonder if I even know what I want anymore.",
+      "emotions": {
+        "acceptance": 2,
+        "anger": 1,
+        "anticipation": 3,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 4
+      },
+      "ai_response": "That’s very common when you’ve been focused on obligations for a long time. Wanting things requires space—and you haven’t had much of that.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "ff1384a2-ddc9-4f70-ad73-6719430be0f5",
+      "distance": 0.5061972141265869,
+      "document": "I feel exhausted just thinking about working on myself.",
+      "emotions": {
+        "acceptance": 2,
+        "anger": 2,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "ai_response": "That suggests treatment fatigue. It’s a sign we need to reduce effort, not increase it.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "cce11cfc-00bf-44c4-9959-0a47ec469304",
+      "distance": 0.5116304159164429,
+      "document": "I’ve been feeling off lately, like I’m just going through the motions every day.",
+      "emotions": {
+        "acceptance": 6,
+        "anger": 1,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 1,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "ai_response": "I’m really glad you said that out loud. When things feel automatic like that, it can be exhausting in a quiet way. How long have you been noticing this feeling?",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    }
+  ]
+}

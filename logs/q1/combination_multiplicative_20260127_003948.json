@@ -1,0 +1,102 @@
+{
+  "query": "There is this emptiness inside me, it feels like nothing matters now.",
+  "type": "multiplicative_retrieval",
+  "retrieval_timestamp": "2026-01-27T00:39:46.473587",
+  "results": [
+    {
+      "id": "baef7b83-aec4-4970-b4ec-dfa9ddc3f057",
+      "semantic_similarity": 0.7319086790084839,
+      "emotional_similarity": 0.14178571428571426,
+      "emotions": {
+        "acceptance": 4,
+        "anger": 2,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 3,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "document": "That makes sense. But sometimes I just feel empty, like nothing matters.",
+      "ai_response": "That feeling of emptiness can come from emotional burnout. Try reconnecting with small sensory pleasures — smell of coffee, feeling of rain — to anchor yourself in the present.",
+      "last_asked": "2026-01-10T17:30:22.909096",
+      "final_score": 0.4473109921394176
+    },
+    {
+      "id": "a24dded3-5990-4d54-8b7a-eafa86608170",
+      "semantic_similarity": 0.5341091340780258,
+      "emotional_similarity": 0.25,
+      "emotions": {
+        "acceptance": 2,
+        "anger": 1,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 1,
+        "joy": 1,
+        "sadness": 9,
+        "surprise": 3
+      },
+      "document": "I feel tears now.",
+      "ai_response": "If they come, let them. This is a regulated release, not collapse.",
+      "last_asked": "2026-01-26T20:33:30.139094",
+      "final_score": 0.42532705224010925
+    },
+    {
+      "id": "e6d1bd45-e38a-47ce-8f92-1212aa3624f8",
+      "semantic_similarity": 0.617514431476593,
+      "emotional_similarity": 0.14285714285714285,
+      "emotions": {
+        "acceptance": 2,
+        "anger": 1,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 1,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "document": "Yeah. Even sadness would be better than this blank feeling.",
+      "ai_response": "That tells me how disconnected this feels for you. Numbness isn’t nothing—it’s often pain that’s gone quiet.",
+      "last_asked": "2026-01-26T20:33:30.139094",
+      "final_score": 0.3980371116571101
+    },
+    {
+      "id": "16c26b5d-e3c6-4555-917c-f43bfbc5dd06",
+      "semantic_similarity": 0.5341091340780258,
+      "emotional_similarity": 0.2,
+      "emotions": {
+        "acceptance": 2,
+        "anger": 1,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 3,
+        "joy": 1,
+        "sadness": 9,
+        "surprise": 2
+      },
+      "document": "I’m crying.",
+      "ai_response": "Stay with your breath. You’re doing exactly what your system needs.",
+      "last_asked": "2026-01-26T20:33:30.139094",
+      "final_score": 0.39778646542453316
+    },
+    {
+      "id": "16a1e3f0-830a-4ac2-abc0-8bcd49f71434",
+      "semantic_similarity": 0.5734882354736328,
+      "emotional_similarity": 0.14178571428571426,
+      "emotions": {
+        "acceptance": 3,
+        "anger": 2,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 4
+      },
+      "document": "I don’t feel like myself anymore.",
+      "ai_response": "Losing touch with yourself can be deeply unsettling. What parts of you feel most missing?",
+      "last_asked": "2026-01-26T20:33:30.139094",
+      "final_score": 0.37710032081689393
+    }
+  ]
+}

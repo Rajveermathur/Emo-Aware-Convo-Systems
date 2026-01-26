@@ -1,0 +1,102 @@
+{
+  "query": "I feel like I’m constantly failing no matter how hard I try.",
+  "query_emotion": {
+    "acceptance": 2,
+    "anger": 6,
+    "anticipation": 1,
+    "disgust": 4,
+    "fear": 8,
+    "joy": 1,
+    "sadness": 9,
+    "surprise": 3
+  },
+  "type": "emotion_retrieval",
+  "retrieval_timestamp": "2026-01-27T00:55:40.049381",
+  "results": [
+    {
+      "id": "6b8940c3-42fb-4f4f-bb1d-874bf778bd79",
+      "distance": 12.0,
+      "document": "I usually judge myself for needing rest.",
+      "emotions": {
+        "acceptance": 2,
+        "anger": 6,
+        "anticipation": 1,
+        "disgust": 3,
+        "fear": 5,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "ai_response": "Today, notice that impulse without acting on it. Observation alone is progress.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "3a2bbfcc-6f7d-4e74-96b4-c50b988da2ae",
+      "distance": 17.0,
+      "document": "I used to enjoy collaborating with my team, but now I avoid meetings.",
+      "emotions": {
+        "acceptance": 5,
+        "anger": 6,
+        "anticipation": 3,
+        "disgust": 4,
+        "fear": 7,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "ai_response": "That could point to social burnout — when connection feels exhausting instead of refreshing. Maybe starting with small, one-on-one chats could ease you back in.",
+      "timestamp": "2026-01-10T17:30:22.909096"
+    },
+    {
+      "id": "7214ecbf-a81d-49e3-b7fa-c3322ee13e07",
+      "distance": 24.0,
+      "document": "I sometimes think people wouldn’t notice if I disappeared for a while.",
+      "emotions": {
+        "acceptance": 2,
+        "anger": 3,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "ai_response": "That sounds like deep loneliness talking. You matter more than your thoughts tell you. Who in your life has made you feel seen before?",
+      "timestamp": "2026-01-10T17:30:22.909096"
+    },
+    {
+      "id": "cf03157f-2139-4d6a-8f37-e4a44d7bba6d",
+      "distance": 24.0,
+      "document": "I guess I don’t feel like I’m allowed to stop.",
+      "emotions": {
+        "acceptance": 2,
+        "anger": 3,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "ai_response": "That feeling of not being allowed is heavy. Who or what do you feel you’d be letting down if you slowed down?",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "a379c428-9dcf-42d5-8e0c-737634343fb2",
+      "distance": 30.0,
+      "document": "I don’t like feeling out of control.",
+      "emotions": {
+        "acceptance": 2,
+        "anger": 4,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 8,
+        "joy": 1,
+        "sadness": 5,
+        "surprise": 2
+      },
+      "ai_response": "That aversion likely protected you once. We don’t remove it—we renegotiate when it’s needed.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    }
+  ]
+}

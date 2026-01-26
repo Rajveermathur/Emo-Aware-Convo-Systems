@@ -1,0 +1,92 @@
+{
+  "query": "I do not want to be a burden on anyone.",
+  "type": "semantic_retrieval",
+  "retrieval_timestamp": "2026-01-27T00:32:58.019606",
+  "results": [
+    {
+      "id": "fb18a5bf-6ee6-4338-bc1c-be6472efec0b",
+      "distance": 0.37958699464797974,
+      "document": "I’ll try. I just don’t want to be a burden.",
+      "emotions": {
+        "acceptance": 6,
+        "anger": 1,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 7,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "ai_response": "You’re not a burden. You’re human, and needing care doesn’t make you weak — it makes you real.",
+      "timestamp": "2026-01-10T17:30:22.909096"
+    },
+    {
+      "id": "a379c428-9dcf-42d5-8e0c-737634343fb2",
+      "distance": 0.5526734590530396,
+      "document": "I don’t like feeling out of control.",
+      "emotions": {
+        "acceptance": 2,
+        "anger": 4,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 8,
+        "joy": 1,
+        "sadness": 5,
+        "surprise": 2
+      },
+      "ai_response": "That aversion likely protected you once. We don’t remove it—we renegotiate when it’s needed.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "486ecdfe-c4b0-4962-a2bb-d9a457fb0152",
+      "distance": 0.5707429647445679,
+      "document": "It feels scary to imagine not being needed.",
+      "emotions": {
+        "acceptance": 2,
+        "anger": 1,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 8,
+        "joy": 1,
+        "sadness": 6,
+        "surprise": 2
+      },
+      "ai_response": "Of course it does. Being needed can feel like proof that we matter. Without it, there’s a lot of uncertainty.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "91ca5119-e161-450d-8924-bbed9e937b5d",
+      "distance": 0.5717241764068604,
+      "document": "I’m afraid of falling apart.",
+      "emotions": {
+        "acceptance": 4,
+        "anger": 2,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 8,
+        "joy": 1,
+        "sadness": 6,
+        "surprise": 1
+      },
+      "ai_response": "People rarely fall apart the way they fear. What usually happens is temporary destabilization followed by integration.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "aac6a1f9-931e-4524-a63c-080c904033ae",
+      "distance": 0.584736168384552,
+      "document": "I don’t want to ignore myself anymore.",
+      "emotions": {
+        "acceptance": 8,
+        "anger": 4,
+        "anticipation": 6,
+        "disgust": 1,
+        "fear": 2,
+        "joy": 7,
+        "sadness": 3,
+        "surprise": 2
+      },
+      "ai_response": "That intention alone is powerful. It’s a promise to yourself that you matter too.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    }
+  ]
+}

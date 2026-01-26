@@ -1,0 +1,92 @@
+{
+  "query": "I am sleepless most of the nights, this is now effecting my work.",
+  "type": "semantic_retrieval",
+  "retrieval_timestamp": "2026-01-27T00:46:29.684307",
+  "results": [
+    {
+      "id": "22a64646-99fb-4edb-ad3c-a836c2095e79",
+      "distance": 0.44004154205322266,
+      "document": "I’ve also been sleeping too much, even on weekends.",
+      "emotions": {
+        "acceptance": 8,
+        "anger": 1,
+        "anticipation": 4,
+        "disgust": 1,
+        "fear": 2,
+        "joy": 1,
+        "sadness": 6,
+        "surprise": 1
+      },
+      "ai_response": "Oversleeping can be your body’s way of coping with stress or sadness. Would you say your sleep feels restful or more like escape?",
+      "timestamp": "2026-01-10T17:30:22.909096"
+    },
+    {
+      "id": "b8033259-13d0-468d-931b-430d56e519ac",
+      "distance": 0.4872233271598816,
+      "document": "I still feel tired though.",
+      "emotions": {
+        "acceptance": 4,
+        "anger": 1,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 1,
+        "joy": 2,
+        "sadness": 6,
+        "surprise": 1
+      },
+      "ai_response": "Of course you do. Awareness doesn’t erase exhaustion—but it does open the door to caring for it.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "fa23593f-eea5-4329-b545-6cf192fd72ef",
+      "distance": 0.5448790788650513,
+      "document": "I feel numb a lot.",
+      "emotions": {
+        "acceptance": 6,
+        "anger": 2,
+        "anticipation": 5,
+        "disgust": 1,
+        "fear": 4,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 3
+      },
+      "ai_response": "Numbness can be a sign that your emotions are overwhelmed and have gone into protection mode. Do you miss feeling things strongly?",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "ccd069e3-7c19-4a13-b9ed-7108e9b9f015",
+      "distance": 0.5703726410865784,
+      "document": "I’ve tried meditation, but I can’t focus. My mind keeps wandering.",
+      "emotions": {
+        "acceptance": 2,
+        "anger": 4,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 3,
+        "joy": 2,
+        "sadness": 6,
+        "surprise": 1
+      },
+      "ai_response": "That’s normal when you’re overwhelmed. Try grounding instead — focus on what you can see, hear, and touch. It’s mindfulness without the pressure to clear your mind.",
+      "timestamp": "2026-01-10T17:30:22.909096"
+    },
+    {
+      "id": "5b7f38a7-c844-4feb-8e22-17df130c0890",
+      "distance": 0.5733300447463989,
+      "document": "Tense. Tired. Even on weekends I feel wired.",
+      "emotions": {
+        "acceptance": 2,
+        "anger": 4,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 3,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "ai_response": "That constant tension suggests your system hasn’t really had a chance to rest. When was the last time you felt genuinely relaxed?",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    }
+  ]
+}

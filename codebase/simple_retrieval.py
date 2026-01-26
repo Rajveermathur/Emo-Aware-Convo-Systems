@@ -127,9 +127,9 @@ def main():
     # query_text = "How can I improve my mental health?"
     query_text = sys.argv[1]
 
-    # semantic_output = retrieve_semantic_vectors(client, "semantic_vectors", embedding_model, query_text)
-    # print(semantic_output)
-    # logs_save(type="semantic_retrieval", output=semantic_output)
+    semantic_output = retrieve_semantic_vectors(client, "semantic_vectors", embedding_model, query_text)
+    print(semantic_output)
+    logs_save(type="semantic_retrieval", output=semantic_output)
 
     emotion_output = retrieve_emotion_vectors(client, "emotions_vectors", query_text)
     print(emotion_output)

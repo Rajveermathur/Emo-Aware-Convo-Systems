@@ -1,0 +1,97 @@
+{
+  "type": "semantic_first_rerank",
+  "query": "I dont know why I feel so anxious even when nothing is wrong.",
+  "retrieval_timestamp": "2026-01-27T00:52:02.788650",
+  "results": [
+    {
+      "id": "488aa539-8917-4a44-ab37-bc65a11fd511",
+      "semantic_similarity": 0.4098731279373169,
+      "emotional_similarity": 0.1,
+      "document": "I’m still scared about the future though. Everything feels uncertain.",
+      "emotions": {
+        "acceptance": 4,
+        "anger": 2,
+        "anticipation": 3,
+        "disgust": 1,
+        "fear": 8,
+        "joy": 2,
+        "sadness": 6,
+        "surprise": 2
+      },
+      "ai_response": "Fear of the unknown is universal. When the future feels heavy, grounding in the present — even by naming one thing you control today — can ease that tension.",
+      "last_asked": "2026-01-10T17:30:22.909096"
+    },
+    {
+      "id": "baef7b83-aec4-4970-b4ec-dfa9ddc3f057",
+      "semantic_similarity": 0.396506667137146,
+      "emotional_similarity": 0.024390243902439025,
+      "document": "That makes sense. But sometimes I just feel empty, like nothing matters.",
+      "emotions": {
+        "acceptance": 4,
+        "anger": 2,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 3,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "ai_response": "That feeling of emptiness can come from emotional burnout. Try reconnecting with small sensory pleasures — smell of coffee, feeling of rain — to anchor yourself in the present.",
+      "last_asked": "2026-01-10T17:30:22.909096"
+    },
+    {
+      "id": "a3366f55-1369-455b-9305-45249826a49f",
+      "semantic_similarity": 0.3934178948402405,
+      "emotional_similarity": 0.023255813953488372,
+      "document": "I know I should, but it feels fake when I try to be cheerful.",
+      "emotions": {
+        "acceptance": 6,
+        "anger": 1,
+        "anticipation": 3,
+        "disgust": 2,
+        "fear": 2,
+        "joy": 2,
+        "sadness": 5,
+        "surprise": 4
+      },
+      "ai_response": "You don’t have to fake it. Authentic messages like 'I’ve been low lately but thinking of you' can maintain closeness without pressure.",
+      "last_asked": "2026-01-10T17:30:22.909096"
+    },
+    {
+      "id": "5b7f38a7-c844-4feb-8e22-17df130c0890",
+      "semantic_similarity": 0.45296990871429443,
+      "emotional_similarity": 0.017857142857142856,
+      "document": "Tense. Tired. Even on weekends I feel wired.",
+      "emotions": {
+        "acceptance": 2,
+        "anger": 4,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 3,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "ai_response": "That constant tension suggests your system hasn’t really had a chance to rest. When was the last time you felt genuinely relaxed?",
+      "last_asked": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "7b6e0331-d00a-4196-a58f-1d52f73402f1",
+      "semantic_similarity": 0.4038429856300354,
+      "emotional_similarity": 0.011904761904761904,
+      "document": "I feel quieter inside.",
+      "emotions": {
+        "acceptance": 5,
+        "anger": 1,
+        "anticipation": 3,
+        "disgust": 1,
+        "fear": 2,
+        "joy": 6,
+        "sadness": 2,
+        "surprise": 2
+      },
+      "ai_response": "That suggests a temporary parasympathetic shift.",
+      "last_asked": "2026-01-26T20:33:30.139094"
+    }
+  ]
+}

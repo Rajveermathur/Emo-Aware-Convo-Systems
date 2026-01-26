@@ -1,0 +1,102 @@
+{
+  "query": "I dont know why I feel so anxious even when nothing is wrong.",
+  "query_emotion": {
+    "acceptance": 6,
+    "anger": 2,
+    "anticipation": 3,
+    "disgust": 1,
+    "fear": 8,
+    "joy": 2,
+    "sadness": 7,
+    "surprise": 4
+  },
+  "type": "emotion_retrieval",
+  "retrieval_timestamp": "2026-01-27T00:52:10.737240",
+  "results": [
+    {
+      "id": "12103189-819a-47a8-9f0c-af6c1db9d741",
+      "distance": 6.0,
+      "document": "I’m still scared, but less alone.",
+      "emotions": {
+        "acceptance": 6,
+        "anger": 2,
+        "anticipation": 4,
+        "disgust": 1,
+        "fear": 8,
+        "joy": 3,
+        "sadness": 7,
+        "surprise": 2
+      },
+      "ai_response": "Reduced isolation significantly improves emotional tolerance.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "8b36660e-5cae-40ab-8dc4-151b1cb07526",
+      "distance": 8.0,
+      "document": "I worry they’ll think my problems aren’t serious enough.",
+      "emotions": {
+        "acceptance": 5,
+        "anger": 2,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 8,
+        "joy": 1,
+        "sadness": 6,
+        "surprise": 2
+      },
+      "ai_response": "Every feeling that weighs on you is valid. Therapy isn’t only for crises — it’s for building understanding and tools before things worsen.",
+      "timestamp": "2026-01-10T17:30:22.909096"
+    },
+    {
+      "id": "5ff888c1-10d5-4c2c-bdb6-04d64d75870f",
+      "distance": 8.0,
+      "document": "I feel very vulnerable.",
+      "emotions": {
+        "acceptance": 8,
+        "anger": 2,
+        "anticipation": 3,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 2,
+        "sadness": 7,
+        "surprise": 4
+      },
+      "ai_response": "Vulnerability often follows honesty. We stabilize after.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "488aa539-8917-4a44-ab37-bc65a11fd511",
+      "distance": 9.0,
+      "document": "I’m still scared about the future though. Everything feels uncertain.",
+      "emotions": {
+        "acceptance": 4,
+        "anger": 2,
+        "anticipation": 3,
+        "disgust": 1,
+        "fear": 8,
+        "joy": 2,
+        "sadness": 6,
+        "surprise": 2
+      },
+      "ai_response": "Fear of the unknown is universal. When the future feels heavy, grounding in the present — even by naming one thing you control today — can ease that tension.",
+      "timestamp": "2026-01-10T17:30:22.909096"
+    },
+    {
+      "id": "e7022407-b36d-4323-b1fd-89296a0f676a",
+      "distance": 9.0,
+      "document": "I don’t know how to stop suppressing.",
+      "emotions": {
+        "acceptance": 5,
+        "anger": 2,
+        "anticipation": 4,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 3
+      },
+      "ai_response": "We don’t force it. We create safety and permission in small, tolerable doses.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    }
+  ]
+}

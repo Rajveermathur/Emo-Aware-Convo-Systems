@@ -1,0 +1,102 @@
+{
+  "query": "I feel like Im constantly failing no matter how hard I try.",
+  "type": "multiplicative_retrieval",
+  "retrieval_timestamp": "2026-01-27T00:54:19.659274",
+  "results": [
+    {
+      "id": "7b1d2e8f-ba1c-432b-90bf-49750265b960",
+      "semantic_similarity": 0.5842864513397217,
+      "emotional_similarity": 0.045242424242424244,
+      "emotions": {
+        "acceptance": 4,
+        "anger": 1,
+        "anticipation": 3,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "document": "Sometimes I feel like I’m failing at self-care.",
+      "ai_response": "Self-care isn’t a test you pass or fail. It’s a process of noticing what you need — sometimes that’s rest, sometimes it’s asking for help.",
+      "last_asked": "2026-01-10T17:30:22.909096",
+      "final_score": 0.27120758496399655
+    },
+    {
+      "id": "65c13874-666f-4955-9aad-bf063a43397a",
+      "semantic_similarity": 0.5710248947143555,
+      "emotional_similarity": 0.045454545454545456,
+      "emotions": {
+        "acceptance": 3,
+        "anger": 2,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 7,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "document": "Then why does it feel like I’m failing at adulthood?",
+      "ai_response": "Because many adult environments reward chronic self-sacrifice and mislabel burnout as inadequacy.",
+      "last_asked": "2026-01-26T20:33:30.139094",
+      "final_score": 0.26725862236977127
+    },
+    {
+      "id": "7214ecbf-a81d-49e3-b7fa-c3322ee13e07",
+      "semantic_similarity": 0.43614898502826693,
+      "emotional_similarity": 0.06666666666666667,
+      "emotions": {
+        "acceptance": 2,
+        "anger": 3,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "document": "I sometimes think people wouldn’t notice if I disappeared for a while.",
+      "ai_response": "That sounds like deep loneliness talking. You matter more than your thoughts tell you. Who in your life has made you feel seen before?",
+      "last_asked": "2026-01-10T17:30:22.909096",
+      "final_score": 0.24826587511967524
+    },
+    {
+      "id": "cf03157f-2139-4d6a-8f37-e4a44d7bba6d",
+      "semantic_similarity": 0.43614898502826693,
+      "emotional_similarity": 0.06666666666666667,
+      "emotions": {
+        "acceptance": 2,
+        "anger": 3,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "document": "I guess I don’t feel like I’m allowed to stop.",
+      "ai_response": "That feeling of not being allowed is heavy. Who or what do you feel you’d be letting down if you slowed down?",
+      "last_asked": "2026-01-26T20:33:30.139094",
+      "final_score": 0.24826587511967524
+    },
+    {
+      "id": "6b8940c3-42fb-4f4f-bb1d-874bf778bd79",
+      "semantic_similarity": 0.43614898502826693,
+      "emotional_similarity": 0.06666666666666667,
+      "emotions": {
+        "acceptance": 2,
+        "anger": 6,
+        "anticipation": 1,
+        "disgust": 3,
+        "fear": 5,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "document": "I usually judge myself for needing rest.",
+      "ai_response": "Today, notice that impulse without acting on it. Observation alone is progress.",
+      "last_asked": "2026-01-26T20:33:30.139094",
+      "final_score": 0.24826587511967524
+    }
+  ]
+}

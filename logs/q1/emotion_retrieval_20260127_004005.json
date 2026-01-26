@@ -1,0 +1,102 @@
+{
+  "query": "There is this emptiness inside me, it feels like nothing matters now.",
+  "query_emotion": {
+    "acceptance": 2,
+    "anger": 1,
+    "anticipation": 2,
+    "disgust": 1,
+    "fear": 4,
+    "joy": 1,
+    "sadness": 8,
+    "surprise": 2
+  },
+  "type": "emotion_retrieval",
+  "retrieval_timestamp": "2026-01-27T00:40:05.226540",
+  "results": [
+    {
+      "id": "1abeeb82-251b-4a67-a2ab-d27361622644",
+      "distance": 1.0,
+      "document": "How long I’ve been living like this.",
+      "emotions": {
+        "acceptance": 2,
+        "anger": 1,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 4,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "ai_response": "That grief is appropriate. It acknowledges unmet needs over time.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "3d1eaa60-8036-4a53-9751-bb761eef5173",
+      "distance": 2.0,
+      "document": "I don’t know how to be kind to myself.",
+      "emotions": {
+        "acceptance": 2,
+        "anger": 1,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 4,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "ai_response": "That’s okay. Kindness can start very practically—like allowing rest without earning it, or speaking to yourself the way you would to a friend.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "56c8f649-277c-4695-a234-27abab3ce06b",
+      "distance": 2.0,
+      "document": "I don’t feel strong enough.",
+      "emotions": {
+        "acceptance": 2,
+        "anger": 1,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 4,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "ai_response": "Strength is not a prerequisite for healing. Capacity grows during the process.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "4266dfcb-ef14-4219-93ba-73c8f1877db4",
+      "distance": 2.0,
+      "document": "I feel drained now.",
+      "emotions": {
+        "acceptance": 2,
+        "anger": 2,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 4,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "ai_response": "That’s expected after emotional processing. Rest is clinically indicated here.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "16c26b5d-e3c6-4555-917c-f43bfbc5dd06",
+      "distance": 3.0,
+      "document": "I’m crying.",
+      "emotions": {
+        "acceptance": 2,
+        "anger": 1,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 3,
+        "joy": 1,
+        "sadness": 9,
+        "surprise": 2
+      },
+      "ai_response": "Stay with your breath. You’re doing exactly what your system needs.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "query": "I do not want to be a burden on anyone.",
+  "query_emotion": {
+    "acceptance": 4,
+    "anger": 1,
+    "anticipation": 2,
+    "disgust": 1,
+    "fear": 6,
+    "joy": 2,
+    "sadness": 7,
+    "surprise": 1
+  },
+  "type": "emotion_retrieval",
+  "retrieval_timestamp": "2026-01-27T00:33:00.437757",
+  "results": [
+    {
+      "id": "5a2a5e82-e966-471a-984b-9bbcec163ef7",
+      "distance": 2.0,
+      "document": "My team. My family. Maybe even myself.",
+      "emotions": {
+        "acceptance": 4,
+        "anger": 2,
+        "anticipation": 3,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 2,
+        "sadness": 7,
+        "surprise": 1
+      },
+      "ai_response": "That’s a lot of responsibility to hold. It sounds like you’ve learned that your value comes from being dependable.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "7b1d2e8f-ba1c-432b-90bf-49750265b960",
+      "distance": 3.0,
+      "document": "Sometimes I feel like I’m failing at self-care.",
+      "emotions": {
+        "acceptance": 4,
+        "anger": 1,
+        "anticipation": 3,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "ai_response": "Self-care isn’t a test you pass or fail. It’s a process of noticing what you need — sometimes that’s rest, sometimes it’s asking for help.",
+      "timestamp": "2026-01-10T17:30:22.909096"
+    },
+    {
+      "id": "65c13874-666f-4955-9aad-bf063a43397a",
+      "distance": 5.0,
+      "document": "Then why does it feel like I’m failing at adulthood?",
+      "emotions": {
+        "acceptance": 3,
+        "anger": 2,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 7,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "ai_response": "Because many adult environments reward chronic self-sacrifice and mislabel burnout as inadequacy.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "fb18a5bf-6ee6-4338-bc1c-be6472efec0b",
+      "distance": 6.0,
+      "document": "I’ll try. I just don’t want to be a burden.",
+      "emotions": {
+        "acceptance": 6,
+        "anger": 1,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 7,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "ai_response": "You’re not a burden. You’re human, and needing care doesn’t make you weak — it makes you real.",
+      "timestamp": "2026-01-10T17:30:22.909096"
+    },
+    {
+      "id": "4acaeea9-89bf-45a3-b8a5-c7f046f954e4",
+      "distance": 6.0,
+      "document": "I keep thinking others handle this better than me.",
+      "emotions": {
+        "acceptance": 2,
+        "anger": 1,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 1,
+        "sadness": 7,
+        "surprise": 1
+      },
+      "ai_response": "That belief is another distortion—mind-reading combined with selective comparison.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    }
+  ]
+}

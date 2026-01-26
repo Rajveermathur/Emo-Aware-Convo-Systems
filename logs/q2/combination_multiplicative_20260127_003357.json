@@ -1,0 +1,102 @@
+{
+  "query": "I do not want to be a burden on anyone.",
+  "type": "multiplicative_retrieval",
+  "retrieval_timestamp": "2026-01-27T00:33:56.120876",
+  "results": [
+    {
+      "id": "fb18a5bf-6ee6-4338-bc1c-be6472efec0b",
+      "semantic_similarity": 0.6204130053520203,
+      "emotional_similarity": 0.14178571428571426,
+      "emotions": {
+        "acceptance": 6,
+        "anger": 1,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 7,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "document": "I’ll try. I just don’t want to be a burden.",
+      "ai_response": "You’re not a burden. You’re human, and needing care doesn’t make you weak — it makes you real.",
+      "last_asked": "2026-01-10T17:30:22.909096",
+      "final_score": 0.39844315267996017
+    },
+    {
+      "id": "5a2a5e82-e966-471a-984b-9bbcec163ef7",
+      "semantic_similarity": 0.41321233987808226,
+      "emotional_similarity": 0.25,
+      "emotions": {
+        "acceptance": 4,
+        "anger": 2,
+        "anticipation": 3,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 2,
+        "sadness": 7,
+        "surprise": 1
+      },
+      "document": "My team. My family. Maybe even myself.",
+      "ai_response": "That’s a lot of responsibility to hold. It sounds like you’ve learned that your value comes from being dependable.",
+      "last_asked": "2026-01-26T20:33:30.139094",
+      "final_score": 0.3553884426943457
+    },
+    {
+      "id": "7b1d2e8f-ba1c-432b-90bf-49750265b960",
+      "semantic_similarity": 0.41321233987808226,
+      "emotional_similarity": 0.2,
+      "emotions": {
+        "acceptance": 4,
+        "anger": 1,
+        "anticipation": 3,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "document": "Sometimes I feel like I’m failing at self-care.",
+      "ai_response": "Self-care isn’t a test you pass or fail. It’s a process of noticing what you need — sometimes that’s rest, sometimes it’s asking for help.",
+      "last_asked": "2026-01-10T17:30:22.909096",
+      "final_score": 0.3323764894039854
+    },
+    {
+      "id": "65c13874-666f-4955-9aad-bf063a43397a",
+      "semantic_similarity": 0.41321233987808226,
+      "emotional_similarity": 0.2,
+      "emotions": {
+        "acceptance": 3,
+        "anger": 2,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 7,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "document": "Then why does it feel like I’m failing at adulthood?",
+      "ai_response": "Because many adult environments reward chronic self-sacrifice and mislabel burnout as inadequacy.",
+      "last_asked": "2026-01-26T20:33:30.139094",
+      "final_score": 0.3323764894039854
+    },
+    {
+      "id": "a379c428-9dcf-42d5-8e0c-737634343fb2",
+      "semantic_similarity": 0.44732654094696045,
+      "emotional_similarity": 0.14178571428571426,
+      "emotions": {
+        "acceptance": 2,
+        "anger": 4,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 8,
+        "joy": 1,
+        "sadness": 5,
+        "surprise": 2
+      },
+      "document": "I don’t like feeling out of control.",
+      "ai_response": "That aversion likely protected you once. We don’t remove it—we renegotiate when it’s needed.",
+      "last_asked": "2026-01-26T20:33:30.139094",
+      "final_score": 0.3169034807086919
+    }
+  ]
+}

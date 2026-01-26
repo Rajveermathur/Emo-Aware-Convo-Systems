@@ -1,0 +1,102 @@
+{
+  "query": "I am sleepless most of the nights, this is now effecting my work.",
+  "query_emotion": {
+    "acceptance": 7,
+    "anger": 4,
+    "anticipation": 2,
+    "disgust": 1,
+    "fear": 6,
+    "joy": 1,
+    "sadness": 8,
+    "surprise": 1
+  },
+  "type": "emotion_retrieval",
+  "retrieval_timestamp": "2026-01-27T00:46:32.315772",
+  "results": [
+    {
+      "id": "18a4f8c9-bebb-4938-b013-8e6a2627fb79",
+      "distance": 4.0,
+      "document": "What if nothing gives a spark anymore?",
+      "emotions": {
+        "acceptance": 7,
+        "anger": 4,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 3
+      },
+      "ai_response": "Then we start even smaller—by creating safety and rest. Sparks often return only after the nervous system feels less threatened.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "e76dc68a-bfc4-44ab-b71f-57fd3168bf9d",
+      "distance": 11.0,
+      "document": "It hurts, but it feels real.",
+      "emotions": {
+        "acceptance": 6,
+        "anger": 4,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 3,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "ai_response": "That’s an important distinction. Feeling real often returns before feeling good.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "fb18a5bf-6ee6-4338-bc1c-be6472efec0b",
+      "distance": 12.0,
+      "document": "I’ll try. I just don’t want to be a burden.",
+      "emotions": {
+        "acceptance": 6,
+        "anger": 1,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 7,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "ai_response": "You’re not a burden. You’re human, and needing care doesn’t make you weak — it makes you real.",
+      "timestamp": "2026-01-10T17:30:22.909096"
+    },
+    {
+      "id": "e9118ece-4ef8-408a-8f7c-484f0c8e1167",
+      "distance": 12.0,
+      "document": "So I’m not just lazy or ungrateful?",
+      "emotions": {
+        "acceptance": 8,
+        "anger": 3,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 2,
+        "sadness": 5,
+        "surprise": 1
+      },
+      "ai_response": "Not at all. What you’re describing sounds like emotional exhaustion, not a character flaw.",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "15727fbd-467f-4f2e-afa4-b4bdbd238f49",
+      "distance": 12.0,
+      "document": "I felt frustrated with myself for slipping back.",
+      "emotions": {
+        "acceptance": 8,
+        "anger": 6,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 5,
+        "joy": 2,
+        "sadness": 7,
+        "surprise": 3
+      },
+      "ai_response": "That sounds like self-criticism activating. Did you notice the language you used internally during that moment?",
+      "timestamp": "2026-01-26T20:33:30.139094"
+    }
+  ]
+}

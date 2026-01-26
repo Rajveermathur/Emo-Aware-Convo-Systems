@@ -1,0 +1,97 @@
+{
+  "type": "emotion_first_rerank",
+  "query": "There is this emptiness inside me, it feels like nothing matters now.",
+  "retrieval_timestamp": "2026-01-27T00:39:34.446792",
+  "results": [
+    {
+      "id": "baef7b83-aec4-4970-b4ec-dfa9ddc3f057",
+      "semantic_similarity": 0.7319086790084839,
+      "emotional_similarity": 0.3333333333333333,
+      "document": "That makes sense. But sometimes I just feel empty, like nothing matters.",
+      "emotions": {
+        "acceptance": 4,
+        "anger": 2,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 3,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "ai_response": "That feeling of emptiness can come from emotional burnout. Try reconnecting with small sensory pleasures — smell of coffee, feeling of rain — to anchor yourself in the present.",
+      "last_asked": "2026-01-10T17:30:22.909096"
+    },
+    {
+      "id": "66b85e8b-80d8-4bbd-9bb2-e0735dd5d9f9",
+      "semantic_similarity": 0.3542554974555969,
+      "emotional_similarity": 0.2,
+      "document": "I feel like crying, but I can’t.",
+      "emotions": {
+        "acceptance": 3,
+        "anger": 2,
+        "anticipation": 2,
+        "disgust": 2,
+        "fear": 4,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "ai_response": "Emotional inhibition is common in prolonged stress states. Your system may still be prioritizing control.",
+      "last_asked": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "92f20acf-1919-44d4-b058-5d50f8df1d33",
+      "semantic_similarity": 0.28255850076675415,
+      "emotional_similarity": 0.5,
+      "document": "That makes me feel broken.",
+      "emotions": {
+        "acceptance": 4,
+        "anger": 2,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 3,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "ai_response": "I want to be clear—you are not broken. Your responses are coherent adaptations to past conditions.",
+      "last_asked": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "caa913f4-9a80-4273-b15d-75db8bed3355",
+      "semantic_similarity": 0.2659943699836731,
+      "emotional_similarity": 0.14285714285714285,
+      "document": "Yeah, I’ve been canceling plans with friends too. I just want to be alone.",
+      "emotions": {
+        "acceptance": 3,
+        "anger": 3,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 4,
+        "joy": 2,
+        "sadness": 7,
+        "surprise": 1
+      },
+      "ai_response": "Wanting solitude isn’t always bad, but total isolation can deepen sadness. Would it feel manageable to text one friend, just to check in?",
+      "last_asked": "2026-01-10T17:30:22.909096"
+    },
+    {
+      "id": "ddb350af-2813-451b-bf8c-912c0556fb22",
+      "semantic_similarity": 0.16596364974975586,
+      "emotional_similarity": 0.14285714285714285,
+      "document": "That hits hard.",
+      "emotions": {
+        "acceptance": 6,
+        "anger": 2,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 2,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "ai_response": "I expected it might. Sometimes accurate reframing disrupts long-held self-narratives.",
+      "last_asked": "2026-01-26T20:33:30.139094"
+    }
+  ]
+}

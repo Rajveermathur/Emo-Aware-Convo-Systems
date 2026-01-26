@@ -1,0 +1,102 @@
+{
+  "query": "I am sleepless most of the nights, this is now effecting my work.",
+  "type": "additive_retrieval",
+  "retrieval_timestamp": "2026-01-27T00:46:37.497759",
+  "results": [
+    {
+      "id": "22a64646-99fb-4edb-ad3c-a836c2095e79",
+      "semantic_similarity": 0.5599584579467773,
+      "emotional_similarity": 0.047428571428571424,
+      "emotions": {
+        "acceptance": 8,
+        "anger": 1,
+        "anticipation": 4,
+        "disgust": 1,
+        "fear": 2,
+        "joy": 1,
+        "sadness": 6,
+        "surprise": 1
+      },
+      "document": "I’ve also been sleeping too much, even on weekends.",
+      "ai_response": "Oversleeping can be your body’s way of coping with stress or sadness. Would you say your sleep feels restful or more like escape?",
+      "last_asked": "2026-01-10T17:30:22.909096",
+      "final_score": 0.40619949199131555
+    },
+    {
+      "id": "b8033259-13d0-468d-931b-430d56e519ac",
+      "semantic_similarity": 0.5127766728401184,
+      "emotional_similarity": 0.047428571428571424,
+      "emotions": {
+        "acceptance": 4,
+        "anger": 1,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 1,
+        "joy": 2,
+        "sadness": 6,
+        "surprise": 1
+      },
+      "document": "I still feel tired though.",
+      "ai_response": "Of course you do. Awareness doesn’t erase exhaustion—but it does open the door to caring for it.",
+      "last_asked": "2026-01-26T20:33:30.139094",
+      "final_score": 0.3731722424166543
+    },
+    {
+      "id": "fa23593f-eea5-4329-b545-6cf192fd72ef",
+      "semantic_similarity": 0.45512092113494873,
+      "emotional_similarity": 0.047428571428571424,
+      "emotions": {
+        "acceptance": 6,
+        "anger": 2,
+        "anticipation": 5,
+        "disgust": 1,
+        "fear": 4,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 3
+      },
+      "document": "I feel numb a lot.",
+      "ai_response": "Numbness can be a sign that your emotions are overwhelmed and have gone into protection mode. Do you miss feeling things strongly?",
+      "last_asked": "2026-01-26T20:33:30.139094",
+      "final_score": 0.3328132162230355
+    },
+    {
+      "id": "4367e9c5-b078-478c-8324-a7e59d050ed3",
+      "semantic_similarity": 0.42533707022666933,
+      "emotional_similarity": 0.06666666666666667,
+      "emotions": {
+        "acceptance": 3,
+        "anger": 6,
+        "anticipation": 3,
+        "disgust": 1,
+        "fear": 4,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "document": "Now it just feels endless. I finish one thing and there’s already five more waiting.",
+      "ai_response": "That kind of never-ending pressure can drain any sense of accomplishment. It’s like running but never seeing the finish line.",
+      "last_asked": "2026-01-26T20:33:30.139094",
+      "final_score": 0.31773594915866854
+    },
+    {
+      "id": "ccd069e3-7c19-4a13-b9ed-7108e9b9f015",
+      "semantic_similarity": 0.42962735891342163,
+      "emotional_similarity": 0.047428571428571424,
+      "emotions": {
+        "acceptance": 2,
+        "anger": 4,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 3,
+        "joy": 2,
+        "sadness": 6,
+        "surprise": 1
+      },
+      "document": "I’ve tried meditation, but I can’t focus. My mind keeps wandering.",
+      "ai_response": "That’s normal when you’re overwhelmed. Try grounding instead — focus on what you can see, hear, and touch. It’s mindfulness without the pressure to clear your mind.",
+      "last_asked": "2026-01-10T17:30:22.909096",
+      "final_score": 0.3149677226679665
+    }
+  ]
+}

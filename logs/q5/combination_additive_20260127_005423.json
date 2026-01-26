@@ -1,0 +1,102 @@
+{
+  "query": "I feel like Im constantly failing no matter how hard I try.",
+  "type": "additive_retrieval",
+  "retrieval_timestamp": "2026-01-27T00:54:22.480310",
+  "results": [
+    {
+      "id": "7b1d2e8f-ba1c-432b-90bf-49750265b960",
+      "semantic_similarity": 0.5842864513397217,
+      "emotional_similarity": 0.06642424242424243,
+      "emotions": {
+        "acceptance": 4,
+        "anger": 1,
+        "anticipation": 3,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "document": "Sometimes I feel like I’m failing at self-care.",
+      "ai_response": "Self-care isn’t a test you pass or fail. It’s a process of noticing what you need — sometimes that’s rest, sometimes it’s asking for help.",
+      "last_asked": "2026-01-10T17:30:22.909096",
+      "final_score": 0.4289277886650779
+    },
+    {
+      "id": "65c13874-666f-4955-9aad-bf063a43397a",
+      "semantic_similarity": 0.5710248947143555,
+      "emotional_similarity": 0.07142857142857142,
+      "emotions": {
+        "acceptance": 3,
+        "anger": 2,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 7,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "document": "Then why does it feel like I’m failing at adulthood?",
+      "ai_response": "Because many adult environments reward chronic self-sacrifice and mislabel burnout as inadequacy.",
+      "last_asked": "2026-01-26T20:33:30.139094",
+      "final_score": 0.4211459977286202
+    },
+    {
+      "id": "ff1384a2-ddc9-4f70-ad73-6719430be0f5",
+      "semantic_similarity": 0.4687039852142334,
+      "emotional_similarity": 0.06666666666666667,
+      "emotions": {
+        "acceptance": 2,
+        "anger": 2,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "document": "I feel exhausted just thinking about working on myself.",
+      "ai_response": "That suggests treatment fatigue. It’s a sign we need to reduce effort, not increase it.",
+      "last_asked": "2026-01-26T20:33:30.139094",
+      "final_score": 0.3480927896499634
+    },
+    {
+      "id": "26956611-a6ea-4585-8805-3798ef10f13a",
+      "semantic_similarity": 0.4612882137298584,
+      "emotional_similarity": 0.06642424242424243,
+      "emotions": {
+        "acceptance": 2,
+        "anger": 1,
+        "anticipation": 3,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 4
+      },
+      "document": "Sometimes I wonder if I even know what I want anymore.",
+      "ai_response": "That’s very common when you’ve been focused on obligations for a long time. Wanting things requires space—and you haven’t had much of that.",
+      "last_asked": "2026-01-26T20:33:30.139094",
+      "final_score": 0.3428290223381736
+    },
+    {
+      "id": "7214ecbf-a81d-49e3-b7fa-c3322ee13e07",
+      "semantic_similarity": 0.43614898502826693,
+      "emotional_similarity": 0.09090909090909091,
+      "emotions": {
+        "acceptance": 2,
+        "anger": 3,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "document": "I sometimes think people wouldn’t notice if I disappeared for a while.",
+      "ai_response": "That sounds like deep loneliness talking. You matter more than your thoughts tell you. Who in your life has made you feel seen before?",
+      "last_asked": "2026-01-10T17:30:22.909096",
+      "final_score": 0.3325770167925141
+    }
+  ]
+}

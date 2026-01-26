@@ -1,0 +1,97 @@
+{
+  "type": "semantic_first_rerank",
+  "query": "There is this emptiness inside me, it feels like nothing matters now.",
+  "retrieval_timestamp": "2026-01-27T00:39:34.789869",
+  "results": [
+    {
+      "id": "e6d1bd45-e38a-47ce-8f92-1212aa3624f8",
+      "semantic_similarity": 0.617514431476593,
+      "emotional_similarity": 0.3333333333333333,
+      "document": "Yeah. Even sadness would be better than this blank feeling.",
+      "emotions": {
+        "acceptance": 2,
+        "anger": 1,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 1,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "ai_response": "That tells me how disconnected this feels for you. Numbness isn’t nothing—it’s often pain that’s gone quiet.",
+      "last_asked": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "baef7b83-aec4-4970-b4ec-dfa9ddc3f057",
+      "semantic_similarity": 0.7319086790084839,
+      "emotional_similarity": 0.1,
+      "document": "That makes sense. But sometimes I just feel empty, like nothing matters.",
+      "emotions": {
+        "acceptance": 4,
+        "anger": 2,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 3,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 1
+      },
+      "ai_response": "That feeling of emptiness can come from emotional burnout. Try reconnecting with small sensory pleasures — smell of coffee, feeling of rain — to anchor yourself in the present.",
+      "last_asked": "2026-01-10T17:30:22.909096"
+    },
+    {
+      "id": "16a1e3f0-830a-4ac2-abc0-8bcd49f71434",
+      "semantic_similarity": 0.5734882354736328,
+      "emotional_similarity": 0.041666666666666664,
+      "document": "I don’t feel like myself anymore.",
+      "emotions": {
+        "acceptance": 3,
+        "anger": 2,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 4
+      },
+      "ai_response": "Losing touch with yourself can be deeply unsettling. What parts of you feel most missing?",
+      "last_asked": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "26956611-a6ea-4585-8805-3798ef10f13a",
+      "semantic_similarity": 0.536067545413971,
+      "emotional_similarity": 0.038461538461538464,
+      "document": "Sometimes I wonder if I even know what I want anymore.",
+      "emotions": {
+        "acceptance": 2,
+        "anger": 1,
+        "anticipation": 3,
+        "disgust": 1,
+        "fear": 6,
+        "joy": 2,
+        "sadness": 8,
+        "surprise": 4
+      },
+      "ai_response": "That’s very common when you’ve been focused on obligations for a long time. Wanting things requires space—and you haven’t had much of that.",
+      "last_asked": "2026-01-26T20:33:30.139094"
+    },
+    {
+      "id": "7b6e0331-d00a-4196-a58f-1d52f73402f1",
+      "semantic_similarity": 0.5442415475845337,
+      "emotional_similarity": 0.013333333333333334,
+      "document": "I feel quieter inside.",
+      "emotions": {
+        "acceptance": 5,
+        "anger": 1,
+        "anticipation": 3,
+        "disgust": 1,
+        "fear": 2,
+        "joy": 6,
+        "sadness": 2,
+        "surprise": 2
+      },
+      "ai_response": "That suggests a temporary parasympathetic shift.",
+      "last_asked": "2026-01-26T20:33:30.139094"
+    }
+  ]
+}

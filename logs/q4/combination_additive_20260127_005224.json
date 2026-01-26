@@ -1,0 +1,102 @@
+{
+  "query": "I dont know why I feel so anxious even when nothing is wrong.",
+  "type": "additive_retrieval",
+  "retrieval_timestamp": "2026-01-27T00:52:23.044158",
+  "results": [
+    {
+      "id": "5b7f38a7-c844-4feb-8e22-17df130c0890",
+      "semantic_similarity": 0.45296990871429443,
+      "emotional_similarity": 0.09957142857142857,
+      "emotions": {
+        "acceptance": 2,
+        "anger": 4,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 3,
+        "joy": 1,
+        "sadness": 8,
+        "surprise": 2
+      },
+      "document": "Tense. Tired. Even on weekends I feel wired.",
+      "ai_response": "That constant tension suggests your system hasn’t really had a chance to rest. When was the last time you felt genuinely relaxed?",
+      "last_asked": "2026-01-26T20:33:30.139094",
+      "final_score": 0.3469503646714347
+    },
+    {
+      "id": "12103189-819a-47a8-9f0c-af6c1db9d741",
+      "semantic_similarity": 0.39282237470149994,
+      "emotional_similarity": 0.14285714285714285,
+      "emotions": {
+        "acceptance": 6,
+        "anger": 2,
+        "anticipation": 4,
+        "disgust": 1,
+        "fear": 8,
+        "joy": 3,
+        "sadness": 7,
+        "surprise": 2
+      },
+      "document": "I’m still scared, but less alone.",
+      "ai_response": "Reduced isolation significantly improves emotional tolerance.",
+      "last_asked": "2026-01-26T20:33:30.139094",
+      "final_score": 0.3178328051481928
+    },
+    {
+      "id": "488aa539-8917-4a44-ab37-bc65a11fd511",
+      "semantic_similarity": 0.4098731279373169,
+      "emotional_similarity": 0.1,
+      "emotions": {
+        "acceptance": 4,
+        "anger": 2,
+        "anticipation": 3,
+        "disgust": 1,
+        "fear": 8,
+        "joy": 2,
+        "sadness": 6,
+        "surprise": 2
+      },
+      "document": "I’m still scared about the future though. Everything feels uncertain.",
+      "ai_response": "Fear of the unknown is universal. When the future feels heavy, grounding in the present — even by naming one thing you control today — can ease that tension.",
+      "last_asked": "2026-01-10T17:30:22.909096",
+      "final_score": 0.31691118955612185
+    },
+    {
+      "id": "7b6e0331-d00a-4196-a58f-1d52f73402f1",
+      "semantic_similarity": 0.4038429856300354,
+      "emotional_similarity": 0.09957142857142857,
+      "emotions": {
+        "acceptance": 5,
+        "anger": 1,
+        "anticipation": 3,
+        "disgust": 1,
+        "fear": 2,
+        "joy": 6,
+        "sadness": 2,
+        "surprise": 2
+      },
+      "document": "I feel quieter inside.",
+      "ai_response": "That suggests a temporary parasympathetic shift.",
+      "last_asked": "2026-01-26T20:33:30.139094",
+      "final_score": 0.3125615185124533
+    },
+    {
+      "id": "8b36660e-5cae-40ab-8dc4-151b1cb07526",
+      "semantic_similarity": 0.39282237470149994,
+      "emotional_similarity": 0.1111111111111111,
+      "emotions": {
+        "acceptance": 5,
+        "anger": 2,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 8,
+        "joy": 1,
+        "sadness": 6,
+        "surprise": 2
+      },
+      "document": "I worry they’ll think my problems aren’t serious enough.",
+      "ai_response": "Every feeling that weighs on you is valid. Therapy isn’t only for crises — it’s for building understanding and tools before things worsen.",
+      "last_asked": "2026-01-10T17:30:22.909096",
+      "final_score": 0.30830899562438324
+    }
+  ]
+}
