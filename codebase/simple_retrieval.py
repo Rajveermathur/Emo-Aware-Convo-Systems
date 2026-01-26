@@ -6,6 +6,7 @@ import os
 from datetime import datetime
 import json
 from preprocessing import emotional_embedder  # Assuming emotional_embedder is defined in preprocessing.py
+import sys
 
 # Function to L2 normalize vectors
 def l2_normalize(vectors: np.ndarray) -> np.ndarray:
@@ -64,7 +65,7 @@ def retrieve_emotion_vectors(client, database_name, query_text: str, top_k: int 
     print("✅ Connected to persistent Chroma collection.")
 
     result = emotional_embedder(query_text)
-
+    print("Emotion embedding result:", result)
     query_embedding = np.array(result["embedding"]).reshape(1, -1)
 
     where_filter = None
@@ -83,6 +84,7 @@ def retrieve_emotion_vectors(client, database_name, query_text: str, top_k: int 
     print(data)
     output = {
         "query": query_text,
+        "query_emotion": result["emotion_scores"],
         "type": "emotion_retrieval",
         "retrieval_timestamp": datetime.now().isoformat(),
         "results": []
@@ -112,7 +114,7 @@ def logs_save(type: str = "retrieval", output: dict = None):
 
     print(f"Saved results to {file_path}")
 
-if __name__ == "__main__":
+def main():
     embedding_model = SentenceTransformer("all-mpnet-base-v2")
 
     # Directory to persist Chroma database
@@ -122,12 +124,16 @@ if __name__ == "__main__":
     # Persistent client
     client = chromadb.PersistentClient(path=persist_dir)
 
-    query_text = "I am sleepless"
+    # query_text = "How can I improve my mental health?"
+    query_text = sys.argv[1]
 
-    semantic_output = retrieve_semantic_vectors(client, "semantic_vectors", embedding_model, query_text)
-    print(semantic_output)
-    logs_save(type="semantic_retrieval", output=semantic_output)
+    # semantic_output = retrieve_semantic_vectors(client, "semantic_vectors", embedding_model, query_text)
+    # print(semantic_output)
+    # logs_save(type="semantic_retrieval", output=semantic_output)
 
     emotion_output = retrieve_emotion_vectors(client, "emotions_vectors", query_text)
     print(emotion_output)
     logs_save(type="emotion_retrieval", output=emotion_output)
+
+if __name__ == "__main__": 
+    main()

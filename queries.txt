@@ -1,0 +1,29 @@
+“I feel empty, like nothing matters.”
+Why semantic search fails:
+It may retrieve philosophical content about nihilism or motivation.
+Why emotion-aware retrieval wins:
+The emotion is burnout + depressive numbness, not abstract philosophy. The best response pulls grounding, validation, and gentle reconnection strategies.
+
+“I don’t want to be a burden.”
+Why semantic search fails:
+It may return advice about dependency or productivity.
+Why emotion-aware retrieval wins:
+This is rooted in shame, low self-worth, and fear of rejection. The right retrieval emphasizes reassurance, relational safety, and self-compassion.
+
+“People wouldn’t notice if I disappeared for a while.”
+Why semantic search fails:
+It might interpret this literally (taking a break, going offline).
+Why emotion-aware retrieval wins:
+This is a loneliness / passive-worthlessness signal adjacent to depressive ideation. Emotion-aware systems recognize risk level and respond with care, connection, and grounding.
+
+“I’ve been sleeping too much.”
+Why semantic search fails:
+Likely retrieves sleep hygiene tips or medical articles.
+Why emotion-aware retrieval wins:
+In context, sleep is an avoidance/escape coping mechanism tied to emotional exhaustion, not a biological sleep issue.
+
+“I think I’ve lost my spark.”
+Why semantic search fails:
+It may return creativity hacks or motivational quotes.
+Why emotion-aware retrieval wins:
+The core emotion is grief for one’s former self + hopelessness, requiring validation and reframing, not productivity advice.

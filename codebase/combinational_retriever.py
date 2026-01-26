@@ -2,7 +2,10 @@ import os
 import chromadb
 from simple_retrieval import retrieve_semantic_vectors, retrieve_emotion_vectors, logs_save
 from sentence_transformers import SentenceTransformer
+import sys
 
+alpha = 0.70  # Weight for semantic similarity
+beta = 1 - alpha  # Weight for emotional similarity
 # Convert Euclidean distances to similarity scores in [0, 1] range 
 def l2_to_similarity(l2_distance: float) -> float:
     return 1.0 / (1.0 + l2_distance) # Larger means more similar
@@ -39,6 +42,7 @@ def _combination_retriever(
         scores[r["id"]] = {
             "semantic_similarity": cosine_to_similarity(r["distance"]),
             "emotional_similarity": fallback_emo,
+            "emotions": r["emotions"],
             "document": r["document"],
             "ai_response": r.get("ai_response"),
             "last_asked": r.get("timestamp"),
@@ -48,6 +52,7 @@ def _combination_retriever(
         scores.setdefault(r["id"], {
             "semantic_similarity": fallback_sem,
             "emotional_similarity": None,
+            "emotions": r["emotions"],
             "document": r.get("document"),
             "ai_response": r.get("ai_response"),
             "last_asked": r.get("timestamp"),
@@ -58,9 +63,14 @@ def _combination_retriever(
         s["final_score"] = score_fn(s["semantic_similarity"], s["emotional_similarity"])
 
     # Select top 5 results based on final scores
-    top_scores = dict(
-        sorted(scores.items(), key=lambda x: x[1]["final_score"], reverse=True)[:5]
-    )
+    top_scores = [
+    {"id": k, **v}
+    for k, v in sorted(
+        scores.items(),
+        key=lambda x: x[1]["final_score"],
+        reverse=True
+    )[:5]
+]
 
     return {
         "query": query_text,
@@ -92,7 +102,7 @@ def additive_retriever(client, semantic_db_name, emotion_db_name, embedding_mode
         retrieval_type="additive_retrieval",
     )
 
-if __name__ == "__main__":
+def main():
     embedding_model = SentenceTransformer("all-mpnet-base-v2")
 
     # Directory to persist Chroma database
@@ -102,13 +112,14 @@ if __name__ == "__main__":
     # Persistent client
     client = chromadb.PersistentClient(path=persist_dir)
 
-    query_text = "I am not able to sleep properly at night"
-
-    alpha = 0.70  # Weight for semantic similarity
-    beta = 1 - alpha  # Weight for emotional similarity
+    # query_text = "I am not able to sleep properly at night"
+    query_text = sys.argv[1]
     
     comb_output = multiplicative_retriever(client, "semantic_vectors", "emotions_vectors", embedding_model, query_text)
-    logs_save(type="combination_retrieval", output=comb_output)
+    logs_save(type="combination_multiplicative", output=comb_output)
     
     comb_output = additive_retriever(client, "semantic_vectors", "emotions_vectors", embedding_model, query_text)
-    logs_save(type="combination_retrieval", output=comb_output)
+    logs_save(type="combination_additive", output=comb_output)
+
+if __name__ == "__main__":
+    main()
