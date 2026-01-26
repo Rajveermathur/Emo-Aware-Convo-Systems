@@ -98,7 +98,7 @@ if __name__ == "__main__":
     client = chromadb.PersistentClient(path=persist_dir)
 
     # Load chat chunks from JSON file
-    with open("data/chunks_ready.json", "r") as f:
+    with open("data/chunks_ready_v2.json", "r") as f:
         chat_data = json.load(f)
     print(f"Loaded {len(chat_data)} chat chunks.")
 

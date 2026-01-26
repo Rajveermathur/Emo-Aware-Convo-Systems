@@ -68,7 +68,7 @@ def emotional_embedder(user_query):
     try:
         raw_output = chat_completion.choices[0].message.content
         parsed_data = ast.literal_eval(raw_output.strip()) # Safely parse string to Python object
-        print("Input: ", user_query)
+        # print("Input: ", user_query)
         # print(validate_emotion_schema(parsed_data)) # Validate schema
         # print("Step 1: ",parsed_data) 
 
@@ -82,7 +82,7 @@ def emotional_embedder(user_query):
         # print("Step 3: ",sorted_emotions)
         
         score_list = [sorted_emotions[dim] for dim in sorted_emotions] # Extract scores in sorted order
-        print("Step 4: ",score_list)
+        # print("Step 4: ",score_list)
         
         structured_log = { # Final structured log
             "embed_timestamp": datetime.now().isoformat(),
@@ -120,8 +120,9 @@ def validate_emotion_schema(data):
 # Main execution
 if __name__ == "__main__":
     # Load raw chat data
-    with open("data\\raw_chat.json", "r") as f:
+    with open("data\\raw_chat_v2.json", "r") as f:
         chat_data = json.load(f)
+        print(f"Loaded {len(chat_data)} chat messages ✅")
     
     # # Alternatively, load pre-made chunks for testing
     # with open("chunks_ready_single.json", "r") as f:
@@ -131,11 +132,11 @@ if __name__ == "__main__":
     for chunk in tqdm(chunks, desc="Embedding emotions", unit="chunk", total=len(chunks)): 
         emotion_results  = emotional_embedder(chunk["text"]) # Generate emotional embeddings
         chunk["emotions_metadata"] = emotion_results # Attach embeddings to chunk
-        time.sleep(10)  # To avoid hitting rate limits
+        time.sleep(6)  # To avoid hitting rate limits
         # break # For testing, process only the first chunk
 
     # Save processed chunks to file
-    with open("data\\chunks_ready.json", "w") as f:
+    with open("data\\chunks_ready_v2.json", "w") as f:
         json.dump(chunks, f, indent=2)
         
     print(f"Created {len(chunks)} chunks ✅")

@@ -1,0 +1,301 @@
+[
+  {"turn": 1, "speaker": "Human", "message": "I’ve been feeling off lately, like I’m just going through the motions every day."},
+  {"turn": 2, "speaker": "AI", "message": "I’m really glad you said that out loud. When things feel automatic like that, it can be exhausting in a quiet way. How long have you been noticing this feeling?"},
+
+  {"turn": 3, "speaker": "Human", "message": "A few months, maybe longer. It’s hard to tell when it started."},
+  {"turn": 4, "speaker": "AI", "message": "That makes sense—these feelings often creep in slowly. When you think back, was there a moment when life felt a little more vivid or meaningful than it does now?"},
+
+  {"turn": 5, "speaker": "Human", "message": "Yeah, I guess so. I used to feel proud after finishing work, like I mattered."},
+  {"turn": 6, "speaker": "AI", "message": "That pride sounds important. Losing that sense of mattering can really shake us. What feels different about your work now compared to back then?"},
+
+  {"turn": 7, "speaker": "Human", "message": "Now it just feels endless. I finish one thing and there’s already five more waiting."},
+  {"turn": 8, "speaker": "AI", "message": "That kind of never-ending pressure can drain any sense of accomplishment. It’s like running but never seeing the finish line."},
+
+  {"turn": 9, "speaker": "Human", "message": "Exactly. And even when I do something well, it barely registers."},
+  {"turn": 10, "speaker": "AI", "message": "It sounds like your efforts aren’t being acknowledged—either by others or by yourself. Do you notice which one hurts more?"},
+
+  {"turn": 11, "speaker": "Human", "message": "Probably myself. I don’t really celebrate anything anymore."},
+  {"turn": 12, "speaker": "AI", "message": "That’s really insightful. When we stop recognizing our own wins, it can feel like we disappear a little. What happens inside you when you finish a task now?"},
+
+  {"turn": 13, "speaker": "Human", "message": "Mostly relief. Like, ‘okay, that’s over,’ and then straight to the next thing."},
+  {"turn": 14, "speaker": "AI", "message": "Relief instead of satisfaction—that’s a big shift. Relief is about survival, not fulfillment. How does your body feel during all this?"},
+
+  {"turn": 15, "speaker": "Human", "message": "Tense. Tired. Even on weekends I feel wired."},
+  {"turn": 16, "speaker": "AI", "message": "That constant tension suggests your system hasn’t really had a chance to rest. When was the last time you felt genuinely relaxed?"},
+
+  {"turn": 17, "speaker": "Human", "message": "I honestly don’t know. Maybe a vacation years ago."},
+  {"turn": 18, "speaker": "AI", "message": "That’s telling. It sounds like you’ve been carrying a lot for a long time without putting it down."},
+
+  {"turn": 19, "speaker": "Human", "message": "I guess I don’t feel like I’m allowed to stop."},
+  {"turn": 20, "speaker": "AI", "message": "That feeling of not being allowed is heavy. Who or what do you feel you’d be letting down if you slowed down?"},
+
+  {"turn": 21, "speaker": "Human", "message": "My team. My family. Maybe even myself."},
+  {"turn": 22, "speaker": "AI", "message": "That’s a lot of responsibility to hold. It sounds like you’ve learned that your value comes from being dependable."},
+
+  {"turn": 23, "speaker": "Human", "message": "Yeah. If I’m not useful, I don’t know what I am."},
+  {"turn": 24, "speaker": "AI", "message": "Thank you for saying that—it’s a really vulnerable truth. Many people tie their worth to usefulness, but that can be such a fragile place to live."},
+
+  {"turn": 25, "speaker": "Human", "message": "It feels scary to imagine not being needed."},
+  {"turn": 26, "speaker": "AI", "message": "Of course it does. Being needed can feel like proof that we matter. Without it, there’s a lot of uncertainty."},
+
+  {"turn": 27, "speaker": "Human", "message": "Sometimes I wonder if I even know what I want anymore."},
+  {"turn": 28, "speaker": "AI", "message": "That’s very common when you’ve been focused on obligations for a long time. Wanting things requires space—and you haven’t had much of that."},
+
+  {"turn": 29, "speaker": "Human", "message": "I feel numb a lot."},
+  {"turn": 30, "speaker": "AI", "message": "Numbness can be a sign that your emotions are overwhelmed and have gone into protection mode. Do you miss feeling things strongly?"},
+
+  {"turn": 31, "speaker": "Human", "message": "Yeah. Even sadness would be better than this blank feeling."},
+  {"turn": 32, "speaker": "AI", "message": "That tells me how disconnected this feels for you. Numbness isn’t nothing—it’s often pain that’s gone quiet."},
+
+  {"turn": 33, "speaker": "Human", "message": "I worry this is just who I am now."},
+  {"turn": 34, "speaker": "AI", "message": "That fear makes sense, but feelings like this are usually states, not identities. You’re responding to conditions, not becoming broken."},
+
+  {"turn": 35, "speaker": "Human", "message": "It’s hard to believe that sometimes."},
+  {"turn": 36, "speaker": "AI", "message": "Of course it is. When you’re inside the fog, it feels endless. But the fact that you’re questioning it tells me part of you knows something isn’t right."},
+
+  {"turn": 37, "speaker": "Human", "message": "I feel guilty even talking about this."},
+  {"turn": 38, "speaker": "AI", "message": "Guilt often shows up when we’ve learned to minimize our own needs. But your pain doesn’t become invalid just because others have it too."},
+
+  {"turn": 39, "speaker": "Human", "message": "I’m scared if I slow down, everything will fall apart."},
+  {"turn": 40, "speaker": "AI", "message": "That fear is very real. At the same time, I wonder—what’s already falling apart inside you from never slowing down?"},
+
+  {"turn": 41, "speaker": "Human", "message": "I don’t feel like myself anymore."},
+  {"turn": 42, "speaker": "AI", "message": "Losing touch with yourself can be deeply unsettling. What parts of you feel most missing?"},
+
+  {"turn": 43, "speaker": "Human", "message": "My curiosity. My excitement. I used to care about things."},
+  {"turn": 44, "speaker": "AI", "message": "Those parts sound like they mattered a lot to you. They may not be gone—just buried under exhaustion."},
+
+  {"turn": 45, "speaker": "Human", "message": "I don’t even know how to start getting them back."},
+  {"turn": 46, "speaker": "AI", "message": "That’s okay. We don’t need a full map yet. Sometimes the first step is just noticing what drains you versus what gives even a tiny spark."},
+
+  {"turn": 47, "speaker": "Human", "message": "What if nothing gives a spark anymore?"},
+  {"turn": 48, "speaker": "AI", "message": "Then we start even smaller—by creating safety and rest. Sparks often return only after the nervous system feels less threatened."},
+
+  {"turn": 49, "speaker": "Human", "message": "I’ve never thought about it like that."},
+  {"turn": 50, "speaker": "AI", "message": "A lot of people blame themselves for burnout, when really their system has been in overdrive for too long."},
+
+  {"turn": 51, "speaker": "Human", "message": "So I’m not just lazy or ungrateful?"},
+  {"turn": 52, "speaker": "AI", "message": "Not at all. What you’re describing sounds like emotional exhaustion, not a character flaw."},
+
+  {"turn": 53, "speaker": "Human", "message": "That’s a relief to hear."},
+  {"turn": 54, "speaker": "AI", "message": "I’m glad. You deserve compassion, especially from yourself."},
+
+  {"turn": 55, "speaker": "Human", "message": "I don’t know how to be kind to myself."},
+  {"turn": 56, "speaker": "AI", "message": "That’s okay. Kindness can start very practically—like allowing rest without earning it, or speaking to yourself the way you would to a friend."},
+
+  {"turn": 57, "speaker": "Human", "message": "I’d never talk to a friend the way I talk to myself."},
+  {"turn": 58, "speaker": "AI", "message": "That awareness is powerful. It shows you already know what kindness sounds like—you just haven’t aimed it inward yet."},
+
+  {"turn": 59, "speaker": "Human", "message": "It feels uncomfortable to even try."},
+  {"turn": 60, "speaker": "AI", "message": "That discomfort is normal. Self-compassion can feel unfamiliar, even unsafe, when you’ve relied on pressure to function."},
+
+  {"turn": 61, "speaker": "Human", "message": "I’m afraid if I let myself rest, I won’t start again."},
+  {"turn": 62, "speaker": "AI", "message": "That fear often comes from burnout culture. In reality, rest usually restores capacity—it doesn’t erase motivation."},
+
+  {"turn": 63, "speaker": "Human", "message": "I want to believe that."},
+  {"turn": 64, "speaker": "AI", "message": "You don’t have to fully believe it yet. We can treat it as an experiment, not a commitment."},
+
+  {"turn": 65, "speaker": "Human", "message": "That feels less scary."},
+  {"turn": 66, "speaker": "AI", "message": "Good. Healing often works best when it’s gentle and reversible."},
+
+  {"turn": 67, "speaker": "Human", "message": "Do people really come back from this?"},
+  {"turn": 68, "speaker": "AI", "message": "Yes, many do. Not by becoming who they were before, but by becoming more honest, balanced versions of themselves."},
+
+  {"turn": 69, "speaker": "Human", "message": "I’d like that."},
+  {"turn": 70, "speaker": "AI", "message": "That hope matters. Even quietly wanting things to change is a form of strength."},
+
+  {"turn": 71, "speaker": "Human", "message": "I still feel tired though."},
+  {"turn": 72, "speaker": "AI", "message": "Of course you do. Awareness doesn’t erase exhaustion—but it does open the door to caring for it."},
+
+  {"turn": 73, "speaker": "Human", "message": "What should I do after this conversation?"},
+  {"turn": 74, "speaker": "AI", "message": "Something small and grounding—drink water, step outside, or do one thing purely because it feels okay, not productive."},
+
+  {"turn": 75, "speaker": "Human", "message": "That sounds manageable."},
+  {"turn": 76, "speaker": "AI", "message": "Good. We’re aiming for manageable, not perfect."},
+
+  {"turn": 77, "speaker": "Human", "message": "I’m glad I talked about this."},
+  {"turn": 78, "speaker": "AI", "message": "I’m really glad you did too. You didn’t overreact—you listened to something important inside you."},
+
+  {"turn": 79, "speaker": "Human", "message": "I feel a little lighter."},
+  {"turn": 80, "speaker": "AI", "message": "That lightness is meaningful. It shows that being heard matters to you."},
+
+  {"turn": 81, "speaker": "Human", "message": "I don’t feel fixed, but I feel seen."},
+  {"turn": 82, "speaker": "AI", "message": "That’s a beautiful way to put it. Feeling seen is often the first step toward healing."},
+
+  {"turn": 83, "speaker": "Human", "message": "Thank you for not rushing me."},
+  {"turn": 84, "speaker": "AI", "message": "You’re welcome. Your pace is the right pace."},
+
+  {"turn": 85, "speaker": "Human", "message": "I think I want to keep exploring this."},
+  {"turn": 86, "speaker": "AI", "message": "I think that’s a wise instinct. There’s more here, and it deserves attention."},
+
+  {"turn": 87, "speaker": "Human", "message": "It’s scary, but also kind of hopeful."},
+  {"turn": 88, "speaker": "AI", "message": "Scary and hopeful often travel together. It means you’re standing at the edge of change."},
+
+  {"turn": 89, "speaker": "Human", "message": "I don’t want to ignore myself anymore."},
+  {"turn": 90, "speaker": "AI", "message": "That intention alone is powerful. It’s a promise to yourself that you matter too."},
+
+  {"turn": 91, "speaker": "Human", "message": "I’ll try to remember that."},
+  {"turn": 92, "speaker": "AI", "message": "And when you forget, that’s okay—we can always return to it."},
+
+  {"turn": 93, "speaker": "Human", "message": "This feels like a beginning."},
+  {"turn": 94, "speaker": "AI", "message": "I agree. Not a dramatic one, but a real one."},
+
+  {"turn": 95, "speaker": "Human", "message": "I’m tired, but I don’t feel alone right now."},
+  {"turn": 96, "speaker": "AI", "message": "I’m really glad you’re not carrying this alone in this moment."},
+
+  {"turn": 97, "speaker": "Human", "message": "Thanks for being here with me."},
+  {"turn": 98, "speaker": "AI", "message": "Of course. You showed up honestly, and that matters."},
+
+  {"turn": 99, "speaker": "Human", "message": "I think I can take the next small step."},
+  {"turn": 100, "speaker": "AI", "message": "That’s all that’s needed right now—one small, gentle step at a time."},
+
+  {"turn": 101, "speaker": "Human", "message": "After our last talk, I noticed how quickly the heaviness came back."},
+  {"turn": 102, "speaker": "AI", "message": "That’s an important observation. Emotional relief after insight is often temporary when the underlying stressors remain unchanged."},
+
+  {"turn": 103, "speaker": "Human", "message": "It almost felt worse, like I saw the problem but couldn’t fix it."},
+  {"turn": 104, "speaker": "AI", "message": "That reaction is common. Increased awareness can temporarily intensify distress before improvement occurs."},
+
+  {"turn": 105, "speaker": "Human", "message": "I felt frustrated with myself for slipping back."},
+  {"turn": 106, "speaker": "AI", "message": "That sounds like self-criticism activating. Did you notice the language you used internally during that moment?"},
+
+  {"turn": 107, "speaker": "Human", "message": "Mostly things like, ‘Here you go again,’ or ‘You’ll never change.’"},
+  {"turn": 108, "speaker": "AI", "message": "Those statements suggest a cognitive distortion called overgeneralization. They frame temporary states as permanent traits."},
+
+  {"turn": 109, "speaker": "Human", "message": "It feels permanent though."},
+  {"turn": 110, "speaker": "AI", "message": "Absolutely. Emotional reasoning can make feelings feel like facts, even when evidence is incomplete."},
+
+  {"turn": 111, "speaker": "Human", "message": "So my brain is lying to me?"},
+  {"turn": 112, "speaker": "AI", "message": "Not lying—protecting, but in an outdated way. These patterns often form to maintain control or predictability."},
+
+  {"turn": 113, "speaker": "Human", "message": "Control feels important. If I lose it, I panic."},
+  {"turn": 114, "speaker": "AI", "message": "That panic response suggests your nervous system associates loss of control with threat. Do you recall when that association began?"},
+
+  {"turn": 115, "speaker": "Human", "message": "Probably growing up. Things were unstable."},
+  {"turn": 116, "speaker": "AI", "message": "That context matters. Early instability often teaches the brain that constant vigilance equals safety."},
+
+  {"turn": 117, "speaker": "Human", "message": "So rest feels dangerous."},
+  {"turn": 118, "speaker": "AI", "message": "Exactly. To your nervous system, rest may register as exposure rather than relief."},
+
+  {"turn": 119, "speaker": "Human", "message": "That explains why I feel guilty doing nothing."},
+  {"turn": 120, "speaker": "AI", "message": "Yes. Guilt often masks fear—specifically fear of consequences that once were real."},
+
+  {"turn": 121, "speaker": "Human", "message": "But those consequences aren’t real anymore."},
+  {"turn": 122, "speaker": "AI", "message": "Cognitively, you know that. Somatically, your body has not updated the file."},
+
+  {"turn": 123, "speaker": "Human", "message": "That makes me feel broken."},
+  {"turn": 124, "speaker": "AI", "message": "I want to be clear—you are not broken. Your responses are coherent adaptations to past conditions."},
+
+  {"turn": 125, "speaker": "Human", "message": "Then why does it feel like I’m failing at adulthood?"},
+  {"turn": 126, "speaker": "AI", "message": "Because many adult environments reward chronic self-sacrifice and mislabel burnout as inadequacy."},
+
+  {"turn": 127, "speaker": "Human", "message": "I keep thinking others handle this better than me."},
+  {"turn": 128, "speaker": "AI", "message": "That belief is another distortion—mind-reading combined with selective comparison."},
+
+  {"turn": 129, "speaker": "Human", "message": "I don’t feel resilient."},
+  {"turn": 130, "speaker": "AI", "message": "Resilience is often misunderstood. Endurance without recovery is not resilience—it’s depletion."},
+
+  {"turn": 131, "speaker": "Human", "message": "That hits hard."},
+  {"turn": 132, "speaker": "AI", "message": "I expected it might. Sometimes accurate reframing disrupts long-held self-narratives."},
+
+  {"turn": 133, "speaker": "Human", "message": "I feel like crying, but I can’t."},
+  {"turn": 134, "speaker": "AI", "message": "Emotional inhibition is common in prolonged stress states. Your system may still be prioritizing control."},
+
+  {"turn": 135, "speaker": "Human", "message": "I don’t like feeling out of control."},
+  {"turn": 136, "speaker": "AI", "message": "That aversion likely protected you once. We don’t remove it—we renegotiate when it’s needed."},
+
+  {"turn": 137, "speaker": "Human", "message": "I feel tense just talking about this."},
+  {"turn": 138, "speaker": "AI", "message": "Let’s note that somatic response. Where do you feel the tension most strongly?"},
+
+  {"turn": 139, "speaker": "Human", "message": "My chest and shoulders."},
+  {"turn": 140, "speaker": "AI", "message": "That posture often correlates with hyper-responsibility and anticipatory stress."},
+
+  {"turn": 141, "speaker": "Human", "message": "So my body is always bracing."},
+  {"turn": 142, "speaker": "AI", "message": "Yes. Chronic bracing can create emotional numbing over time."},
+
+  {"turn": 143, "speaker": "Human", "message": "That explains the emptiness."},
+  {"turn": 144, "speaker": "AI", "message": "Exactly. Emptiness is often not absence—it’s suppression."},
+
+  {"turn": 145, "speaker": "Human", "message": "I don’t know how to stop suppressing."},
+  {"turn": 146, "speaker": "AI", "message": "We don’t force it. We create safety and permission in small, tolerable doses."},
+
+  {"turn": 147, "speaker": "Human", "message": "What if I open it and can’t handle what comes out?"},
+  {"turn": 148, "speaker": "AI", "message": "That fear suggests unprocessed emotional material. We would titrate exposure, not flood you."},
+
+  {"turn": 149, "speaker": "Human", "message": "I’m afraid of falling apart."},
+  {"turn": 150, "speaker": "AI", "message": "People rarely fall apart the way they fear. What usually happens is temporary destabilization followed by integration."},
+
+  {"turn": 151, "speaker": "Human", "message": "I don’t feel strong enough."},
+  {"turn": 152, "speaker": "AI", "message": "Strength is not a prerequisite for healing. Capacity grows during the process."},
+
+  {"turn": 153, "speaker": "Human", "message": "I feel exhausted just thinking about working on myself."},
+  {"turn": 154, "speaker": "AI", "message": "That suggests treatment fatigue. It’s a sign we need to reduce effort, not increase it."},
+
+  {"turn": 155, "speaker": "Human", "message": "So I don’t have to push through this?"},
+  {"turn": 156, "speaker": "AI", "message": "No. Pushing is often what created the condition you’re experiencing."},
+
+  {"turn": 157, "speaker": "Human", "message": "That feels counterintuitive."},
+  {"turn": 158, "speaker": "AI", "message": "Most nervous-system-based healing contradicts productivity logic."},
+
+  {"turn": 159, "speaker": "Human", "message": "I feel sad hearing that."},
+  {"turn": 160, "speaker": "AI", "message": "What do you think the sadness is responding to?"},
+
+  {"turn": 161, "speaker": "Human", "message": "How long I’ve been living like this."},
+  {"turn": 162, "speaker": "AI", "message": "That grief is appropriate. It acknowledges unmet needs over time."},
+
+  {"turn": 163, "speaker": "Human", "message": "I didn’t realize I was allowed to grieve that."},
+  {"turn": 164, "speaker": "AI", "message": "Many people invalidate their own grief because there was no single catastrophe."},
+
+  {"turn": 165, "speaker": "Human", "message": "But it still hurts."},
+  {"turn": 166, "speaker": "AI", "message": "Yes. Chronic emotional neglect of the self accumulates quietly."},
+
+  {"turn": 167, "speaker": "Human", "message": "I feel tears now."},
+  {"turn": 168, "speaker": "AI", "message": "If they come, let them. This is a regulated release, not collapse."},
+
+  {"turn": 169, "speaker": "Human", "message": "I’m crying."},
+  {"turn": 170, "speaker": "AI", "message": "Stay with your breath. You’re doing exactly what your system needs."},
+
+  {"turn": 171, "speaker": "Human", "message": "It hurts, but it feels real."},
+  {"turn": 172, "speaker": "AI", "message": "That’s an important distinction. Feeling real often returns before feeling good."},
+
+  {"turn": 173, "speaker": "Human", "message": "I’m scared this won’t last."},
+  {"turn": 174, "speaker": "AI", "message": "The goal isn’t permanence. It’s increasing access to your emotional range."},
+
+  {"turn": 175, "speaker": "Human", "message": "I feel drained now."},
+  {"turn": 176, "speaker": "AI", "message": "That’s expected after emotional processing. Rest is clinically indicated here."},
+
+  {"turn": 177, "speaker": "Human", "message": "I usually judge myself for needing rest."},
+  {"turn": 178, "speaker": "AI", "message": "Today, notice that impulse without acting on it. Observation alone is progress."},
+
+  {"turn": 179, "speaker": "Human", "message": "This feels intense."},
+  {"turn": 180, "speaker": "AI", "message": "It is. But intensity does not equal danger."},
+
+  {"turn": 181, "speaker": "Human", "message": "I don’t feel numb right now."},
+  {"turn": 182, "speaker": "AI", "message": "That indicates emotional access is returning."},
+
+  {"turn": 183, "speaker": "Human", "message": "I’m afraid of going back to numbness."},
+  {"turn": 184, "speaker": "AI", "message": "Fluctuation is normal. Progress is non-linear."},
+
+  {"turn": 185, "speaker": "Human", "message": "I feel very vulnerable."},
+  {"turn": 186, "speaker": "AI", "message": "Vulnerability often follows honesty. We stabilize after."},
+
+  {"turn": 187, "speaker": "Human", "message": "I don’t feel fixed."},
+  {"turn": 188, "speaker": "AI", "message": "Therapy doesn’t fix—it integrates."},
+
+  {"turn": 189, "speaker": "Human", "message": "I feel quieter inside."},
+  {"turn": 190, "speaker": "AI", "message": "That suggests a temporary parasympathetic shift."},
+
+  {"turn": 191, "speaker": "Human", "message": "I think I need to rest now."},
+  {"turn": 192, "speaker": "AI", "message": "That’s an appropriate and healthy response."},
+
+  {"turn": 193, "speaker": "Human", "message": "I’m still scared, but less alone."},
+  {"turn": 194, "speaker": "AI", "message": "Reduced isolation significantly improves emotional tolerance."},
+
+  {"turn": 195, "speaker": "Human", "message": "Thank you for guiding me through that."},
+  {"turn": 196, "speaker": "AI", "message": "You did the work. I provided structure."},
+
+  {"turn": 197, "speaker": "Human", "message": "This feels like something shifted."},
+  {"turn": 198, "speaker": "AI", "message": "Yes. Small but meaningful recalibration occurred."},
+
+  {"turn": 199, "speaker": "Human", "message": "I’m exhausted, but I feel human again."},
+  {"turn": 200, "speaker": "AI", "message": "That’s a clinically significant outcome. We stop here and allow integration."}
+]
